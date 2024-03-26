@@ -1,6 +1,0 @@
-$site-logo: "/ICS/icsfs/logo.png?target=8a24a067-91da-4b78-873e-b8095b69c222";
-$site-logo-width: 374px;
-$site-logo-height: 61px;
-$containers-borders: #ffffff;
-$accent: #E8AF10;
-$primary: #004896;
