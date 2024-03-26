@@ -1,0 +1,25 @@
+﻿/* 
+    Theme: Pacifica
+--  Text editor colors specific styles
+--  Create another file to override these styles if needed
+*/
+
+.portlet-grid 
+    {
+    .teLimitExceeded 
+        {
+        border-color: $alert;
+        }
+    .teLimitMsg, .pSection .teLimitMsg 
+        {
+        color: $alert;
+        }
+    .tinymce-mobile-outer-container
+        {
+        .tinymce-mobile-disabled-mask
+            {
+            background-color: $secondary-background;
+            opacity: .2;
+            }
+        }
+    }

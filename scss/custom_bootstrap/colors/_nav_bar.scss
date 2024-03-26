@@ -1,0 +1,127 @@
+﻿/* 
+    Theme: Pacifica
+--  Navbar color specific styles
+--  Create another file to override these styles if needed
+*/
+
+.site-header-container
+    {
+    .user-btn,
+    .search-btn
+        {
+        &:focus
+            {
+            box-shadow: none;
+            }
+        }
+    .user-btn
+        {
+        color: $color-content-one;
+        }
+    .search-btn
+        {
+        color: $color-content-one;
+        }
+    .popover
+        {
+        background-color: $color-background-one;
+        border: 1px solid $containers-borders;
+        }
+    .main-nav-submenu-container
+        {
+        .init-user-login-btn,
+        .init-logout-btn,
+		.init-user-login-continue-btn
+            {
+            color: $primary;
+            background: $color-background-one;
+            }
+        .user-login.popover
+            {
+            .init-user-login-btn,
+            .init-logout-btn
+                {
+                color: $primary;
+                background: none;
+                &:active
+                    {
+                    box-shadow: none;
+                    }
+                }
+            .message, .user-name 
+                {
+                color: $body-text;
+                }
+            }
+        .user-login
+            {
+            .input-group
+                {
+                .input-group-addon
+                    {
+                    color: darken($secondary-content, 30%);
+                    background: lighten($secondary-background, 5%);
+                    }
+                }
+            .forgot-password-link
+                {
+                color: $color-content-one;
+                }
+            }
+        }
+        .jics-login-show-standard-fields-text
+            {
+            color: $color-content-one;
+            }
+        .jics-login-show-standard-fields-button
+            {
+            &:hover
+                {
+                color: $color-content-one;
+                }
+            }
+    }
+
+.top-nav-bar
+    {
+    background-color: $primary;
+    .nav-container
+        {
+        .link-scroll
+            {
+            background: transparent;
+            .h-menu
+                {
+                a
+                    {
+                    @extend %main-nav-links;
+                    }
+                }
+            }
+        }
+    .more-links-div
+        {
+        background-color: $primary;
+        ul
+            {
+            a
+                {
+                @extend %main-nav-links;
+                }
+            }
+        }
+    }
+.main-crumbs
+    {
+    color: $primary;
+    .breadcrumbs-title
+        {
+        color: $body-text;
+        }
+    }
+#emulation 
+    {
+    color: $body-text;
+    }
+
+@import "nav_bar_mobile";

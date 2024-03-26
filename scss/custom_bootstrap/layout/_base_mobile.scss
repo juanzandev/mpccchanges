@@ -1,0 +1,55 @@
+﻿/* 
+    Theme: Pacifica
+--  Base mobile layout specific styles
+--  Create another file to override these styles if needed
+*/
+
+@media screen and (max-width: $screen-lg-min) {
+    @mixin logo-width() {
+		@if($site-logo-width > 360) {
+			width: $site-logo-width/2;
+			height: $site-logo-height/2;
+		}
+	
+	}
+.logged-in
+    {
+    .site-header-container
+        {
+        #masthead
+            {
+            .site-logo
+                {
+                top: 0;
+                }
+            }
+        }
+    }
+    .site-header-container
+        {
+        #masthead
+            {
+            top: 0;
+            padding: 20px 0;
+            height: auto !important;
+            .site-logo
+                {
+                float: none;
+                text-align: center;
+                @include logo-width;
+                }
+            .site-logo-link
+                {
+                top: 0;
+                display: block;
+                margin: 35px auto 0 auto;
+                text-align: center;
+                float: none;
+                }
+            }
+        }
+    .main-layout
+        {
+        margin-top: 35px;
+        }
+}

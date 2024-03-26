@@ -1,0 +1,118 @@
+﻿/* 
+    Theme: Pacifica
+--  Footable color specific styles
+--  Create another file to override these styles if needed
+*/
+
+.footable-container
+    {
+    table.footable
+        {
+        th, td
+            {
+            border-color: darken($containers-borders, 20%);
+            }
+        tbody > tr:nth-of-type(odd)
+            {
+            background-color: $color-background-one;
+            }
+        .footable-detail-row
+            {
+            table
+                {
+                background: transparent;
+                .alert-prompt-row.error,
+                .alert-prompt-row.success,
+                .alert-prompt-row.feedback,
+                .alert-prompt-row.warning
+                    {
+                    color: $body-text;
+                    background-color: transparent;
+                    & a
+                        {
+                        color: $primary;
+                        }
+                    }
+                }
+            }
+        .alert-prompt-row.error
+            {
+            color: $alert;
+            background-color: lighten($alert, 47%);
+                & a
+                    {
+                    color: $alert;
+                    }
+            }
+        .alert-prompt-row.success
+            {
+            color: $success;
+            background-color: lighten($success, 75%);
+                & a
+                {
+                color: $success;
+                }
+            }
+        .alert-prompt-row.feedback
+            {
+            color: $primary;
+            background-color: lighten($primary, 62%);
+                & a
+                    {
+                    color: $primary;
+                    }
+            }
+        .alert-prompt-row.warning
+            {
+            color: $body-text;
+            background-color: $warning-background;
+                & a
+                    {
+                    color: $body-text;
+                    }
+            }
+        }
+    table.footable
+        {
+        table.footable-details tbody > tr:nth-of-type(odd)
+            {
+            background: transparent;
+            }
+        }
+    .fooicon-plus, .fooicon-minus
+        {
+        color: $primary;
+        opacity: 1;
+        }
+    .footable-page-nav.disabled
+        {
+        .footable-page-link
+            {
+            color: $color-content-two;
+            }
+        }
+    .label.label-default
+        {
+        background-color: lighten($color-background-two, 20%);
+        }
+    }
+.drawer-container
+    {
+    table.footable
+        {
+        th, td
+            {
+            border-color: darken($containers-borders, 20%);
+            }
+        }
+    }
+.default-border-alternate-one
+    {
+    table.footable
+        {
+        th, td
+            {
+            border-color: darken($containers-borders, 20%);
+            }
+        }
+    }

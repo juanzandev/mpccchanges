@@ -1,0 +1,68 @@
+/* 
+    Theme: Pacifica
+--  Sidebar color specific styles
+--  Create another file to override these styles if needed
+*/
+
+.slide-menu-right {
+	background-color: $color-background-one;
+
+	.sidebar-link-title {
+		color: $primary;
+		border-bottom-color: $primary;
+		font-weight: bold;
+
+		a {
+			color: $primary;
+		}
+	}
+
+	.navbar {
+		background-color: $color-background-one;
+		border: none;
+
+		li {
+			a {
+				@extend %sidebar-slide-menu-links;
+			}
+
+			#pagePortlets, #myPages, #myGroups, #myCourses {
+				a {
+					color: $accent;
+					background-color: $secondary-background;
+
+					&:hover {
+						color: $accent;
+						background-color: $secondary-background;
+						text-decoration: underline;
+					}
+				}
+
+				.glyphicons, .custom-icon {
+					@extend %sidebar-slide-menu-links;
+				}
+			}
+
+			.anchor-contains-icon {
+				font-weight: normal;
+			}
+		}
+
+		li.add-page, li.manage-context,
+		li.usage-stats, li.copy-courses,
+		li.manage-group, ul.sub-contexts li,
+		li.sidebar-quick-link, li.early-alert {
+			border-bottom-color: $containers-borders;
+		}
+
+		li > a.sub-nav {
+			background-color: $secondary-background;
+		}
+
+		.quick-links {
+			border-top: 12px solid $color-background-one;
+		}
+	}
+}
+
+@import "sidebar_slide_menu_mobile";

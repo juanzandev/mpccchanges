@@ -1,0 +1,80 @@
+/* 
+    Theme: Pacifica
+--  Sidebar mobile color specific styles
+--  Create another file to override these styles if needed
+*/
+
+@media screen and (max-width: $screen-lg-min) {
+    .slide-menu-right {
+        border-right-color: $containers-borders;
+
+        .navbar {
+            li {
+                border-top: 1px solid darken($containers-borders, 20%);
+            }
+
+            li.sub-context-parent {
+                border-top: none;
+
+                .sub-contexts {
+                    li {
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+
+            li.add-page, li.manage-context,
+            li.usage-stats, li.copy-courses,
+            li.manage-group, ul.sub-contexts li,
+            li.sidebar-quick-link, li.early-alert {
+                border-bottom-color: transparent;
+            }
+
+            .tab-pane {
+                border-top: none !important;
+            }
+
+            .slide-menu-toggle-btns-wrapper {
+                border-top: none;
+            }
+
+            .slide-menu-toggle-btns {
+                li {
+                    border: none;
+
+                    &:first-child {
+                        border-right: 1px solid darken($containers-borders, 20%);
+                    }
+
+                    a {
+                        color: $color-content-one;
+                        background: $primary;
+                    }
+                }
+
+                .active {
+                    a {
+                        color: $primary;
+                        background: transparent;
+
+                        &:hover {
+                            color: $color-content-one;
+                            background-color: $primary;
+                        }
+                    }
+                }
+            }
+
+            .quick-links {
+                border: none !important;
+            }
+        }
+    }
+.slide-menu-btn 
+    {
+    background-color: $primary;
+    color: $color-content-one;
+    }
+}

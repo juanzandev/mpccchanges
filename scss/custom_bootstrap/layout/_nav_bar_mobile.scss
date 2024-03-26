@@ -1,0 +1,158 @@
+﻿/* 
+    Theme: Pacifica
+--  Navbar mobile layout specific styles
+--  Create another file to override these styles if needed
+*/
+
+@media screen and (max-width: $screen-lg-min) {
+
+.logged-in
+    {
+    .site-header-container
+        {
+        .top-nav-bar
+            {
+            top: 0;
+            }
+        .main-nav-submenu-container
+            {
+            .user-login.popover
+                {
+                top: 34px;
+                position: fixed !important;
+                }
+            }
+        .search-section
+            {
+            top: 44px;
+            position: fixed !important;
+            }
+        .search-btn
+            {
+            top: 8px;
+            right: 56px;
+            }
+        .user-btn
+            {
+            top: 3px;
+            }
+        }
+    }
+
+.site-header-container
+    {
+    .mobile-fixed-container
+        {
+        width: 100%;
+        height: 43px;
+        z-index: 10;
+        position: fixed;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        }
+    .top-nav-bar
+        {
+        top: 0;
+        border-bottom: none;
+        .nav-container
+            {
+			.link-scroll
+				{
+				.h-menu 
+					{
+					ul
+						{
+						margin-top: 0;
+						}
+					}
+				}
+			}
+        }
+    .main-nav-submenu-container
+        {
+        .user-login
+            {
+            position: fixed !important;
+            width: 100%;
+            top: 44px;
+            right: 0;
+            overflow: hidden;
+            left: 0; 
+            text-align: center;
+            z-index: 20000;
+            .forgot-password-link
+                {
+                margin: 0;
+                }
+            }
+        }
+    .search-section
+        {
+        top: 44px;
+        position: fixed !important;
+        }
+    .login-btn
+        {
+        top: 3px;
+        right: 60px;
+        position: fixed;
+        z-index: 5000;
+        }
+    .search-btn
+        {
+        top: 8px;
+        right: 8px;
+        font-size: 28px;
+        position: fixed;
+        z-index: 20;
+        }
+    .user-btn
+        {
+        top: 0;
+        position: fixed;
+        .user-image
+            {
+            width: 30px;
+            height: 30px;
+            }
+        }
+    .jics-login-redirect-simple,
+    .jics-login-show-standard-fields-section
+        {
+        top: 10px;
+        padding-bottom: 20px;
+        }
+    .jics-login-show-standard-fields-button
+        {
+        vertical-align: baseline;
+        }
+    }
+.main-crumbs
+    {
+    top: 20px;
+    padding-bottom: 0;
+    .breadcrumbs-title
+	    {
+	    float: none;
+	    }
+    .breadcrumbs-container
+		{
+		display: inline-block;
+		}
+    }
+.skip-navigation:focus
+    {
+    position: absolute;
+    top: -3px;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    }
+#emulation 
+    {
+    text-align: center;
+    margin: 28px auto 0 auto;
+    float: none;
+    }
+}

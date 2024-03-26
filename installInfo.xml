@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Theme xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.jenzabar.net/jics/themes/themecreationinfo">
+  <Name>JUAN</Name>
+  <DisplayName>JUAN</DisplayName>
+  <Author>MPCC IT Team</Author>
+  <Description>Juan was here.</Description>
+  <Version>1</Version>
+  <HtmlType>div</HtmlType>
+  <DisableDefaultCss>False</DisableDefaultCss>
+  <DisableCustomCss>False</DisableCustomCss>
+  <MainNavigation>SuperMenu</MainNavigation>
+  <ReadMe></ReadMe>
+  <HdrElementsLoggedInOrderType>0,4,2,3,1</HdrElementsLoggedInOrderType>
+  <HdrElementsLoggedOutOrderType>2,3,4,0,1</HdrElementsLoggedOutOrderType>
+</Theme>

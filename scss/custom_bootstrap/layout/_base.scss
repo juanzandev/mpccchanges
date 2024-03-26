@@ -1,0 +1,106 @@
+﻿/* 
+    Theme: Pacifica
+--  Base layout specific styles
+--  Create another file to override these styles if needed
+*/
+
+body 
+    {
+    font-family: $default-font;
+    font-size: $default-font-size;
+    }
+
+.logged-in
+    {
+    .site-header-container
+        {
+        #masthead
+            {
+            height: $site-logo-height + 35px;
+            .site-logo-link
+                {
+                top: 0;
+                }
+            .site-logo
+                {
+                top: -8px;
+                }
+            }
+        }
+    }
+
+.site-header-container
+    {
+    #masthead
+        {
+        margin: 0;
+        padding-top: 20px;
+        height: $site-logo-height + 75px;
+        position: relative;
+        h1
+            {
+            margin: 0;
+            }
+        .site-logo-link
+            {
+            float: left;
+            top: 37px;
+            position: relative;
+            }
+        .site-logo
+            {
+            padding: 0 10px;
+            position: relative;
+            float: left;
+            width: $site-logo-width;
+            height: $site-logo-height;
+            box-sizing: content-box;
+            margin: 0 auto;
+            }
+        }
+    }
+
+.error-message 
+    {
+    border-style: solid;
+	border-width: 1px;
+    }
+
+.targeted-message 
+    {
+    margin-top: 30px;
+    }
+.page-not-found
+    {
+    position: relative;
+    top: -20px
+    }
+.page-title 
+    {
+    h2
+        {
+        font-size: 18px;
+        }
+    }
+
+.user-image-shape
+    {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    }
+
+.push-icon-shape
+    {
+    border-style: solid;
+    border-width: 2px;
+    }
+
+// h5
+h5 
+	{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	}
+
+@import "base_mobile";

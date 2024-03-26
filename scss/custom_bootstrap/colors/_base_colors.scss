@@ -1,0 +1,234 @@
+﻿/* 
+    Theme: Pacifica
+--  Base colors
+--  Create another file to override these styles if needed
+*/
+
+// Colors
+.primary
+    {
+    color: $primary;
+    }
+.accent
+	{
+	color: $accent;
+	}
+.color-content-one
+    {
+    color: $color-content-one;
+    }
+.color-content-two
+    {
+    color: $color-content-two;
+    }
+.warning-content
+    {
+    color: $warning-content;
+    }
+.secondary-content
+    {
+    color: $secondary-content;
+    }
+.secondary-alternate-content-one
+    {
+    color: darken($secondary-content, 50%);
+    }
+.danger
+    {
+    color: $alert;
+    }
+.danger.inactive-description
+    {
+    color: darken($alert, 10%);
+    }
+.fooicon-trash.danger,
+.delete-tag.danger
+    {
+    color: darken($alert, 10%);
+    }
+.error
+    {
+    color: $alert;
+    }
+.success
+    {
+    color: $success
+    }
+.most-popular
+    {
+    color: $success;
+    }
+.popular
+    {
+    color: lighten($success, 10%);
+    }
+.average
+    {
+    color: darken($warning-background, 50%);
+    }
+.below-average
+    {
+    color: lighten($alert, 10%);
+    }
+.poor
+    {
+    color: $alert;
+    }
+.feedback
+    {
+    color: $feedback;
+    }
+.caution
+    {
+    color: $caution;
+    }
+.danger-alternate-content-one
+    {
+    color: darken($alert, 10%);
+    }
+.body-text
+    {
+    color: $body-text;
+    }
+.body-text-alternate-one
+    {
+    color: lighten($body-text, 40%);
+    }
+.disabled-link
+    {
+    color: darken($secondary-content, 50%);
+    }
+.text-link
+	{
+	color: $text-link;
+	}
+
+// Backgrounds
+.color-background-one
+    {
+    background-color: $color-background-one;
+    }
+.color-background-two
+    {
+    background-color: $color-background-two;
+    }
+.primary-background 
+    {
+    background-color: $primary;
+    }
+.primary-alternate-background-one
+    {
+    background-color: lighten($primary, 50%);
+    }
+.primary-alternate-background-two
+    {
+    background-color: rgba($primary, .18);
+    }
+.secondary-background
+    {
+    background-color: $containers-borders;
+    }
+.secondary-alternate-background-one
+    {
+    background-color: lighten($containers-borders, 7%);
+    }
+.secondary-alternate-background-two
+    {
+    background-color: darken($containers-borders, 2%);
+    }
+.secondary-alternate-background-three
+    {
+    background-color: darken($containers-borders, 20%);
+    }
+.warning-background
+    {
+    background-color: $warning-background;
+    }
+.success-background 
+    {
+    background-color: lighten($success, 20%);
+    }
+.transparent-background
+    {
+    background-color: transparent;
+    }
+.my-popup-info-modal-header-background
+    {
+    background-color: $primary;
+    }
+
+// Borders
+.default-border
+    {
+    border-color: $containers-borders;
+    }
+.default-top-border
+    {
+    border-top-color: $containers-borders;
+    }
+.default-right-border
+    {
+    border-right-color: $containers-borders;
+    }
+.default-bottom-border
+    {
+    border-bottom-color: $containers-borders;
+    }
+.default-left-border
+    {
+    border-left-color: $containers-borders;
+    }
+.default-border-alternate-one
+    {
+    border-color: darken($containers-borders, 20%);
+    }
+.default-top-border-alternate-one
+    {
+    border-top-color: darken($containers-borders, 20%);
+    }
+.default-right-border-alternate-one
+    {
+    border-right-color: darken($containers-borders, 20%);
+    }
+.default-bottom-border-alternate-one
+    {
+    border-bottom-color: darken($containers-borders, 20%);
+    }
+.default-left-border-alternate-one
+    {
+    border-left-color: darken($containers-borders, 20%);
+    }
+.warning-border
+    {
+    border-color: $warning-background;
+    }
+.warning-alternate-border-one
+    {
+    border-color: darken($warning-background, 50%);
+    }
+.success-border
+	{
+	border-color: $success;
+	}
+.transparent-border
+    {
+    border-color: transparent;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "base_mobile";
+
+
+

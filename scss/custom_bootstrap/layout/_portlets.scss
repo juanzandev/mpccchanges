@@ -1,0 +1,17 @@
+﻿/* 
+    Theme: Pacifica
+--  Portlet layout specific styles
+--  Create another file to override these styles if needed
+*/
+
+.portlet-grid 
+    {
+    .portlet-header-bar 
+        {
+        padding-left: 0;
+        h3
+            {
+            font-size: 16px;
+            }
+        }
+    }

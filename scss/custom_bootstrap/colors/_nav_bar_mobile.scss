@@ -1,0 +1,221 @@
+﻿/* 
+    Theme: Pacifica
+--  Navbar mobile color specific styles
+--  Create another file to override these styles if needed
+*/
+
+@media screen and (max-width: $screen-lg-min) {
+
+.site-header-container
+    {
+    .mobile-fixed-container
+        {
+        background: $primary;
+        border-bottom-color: $containers-borders;
+        }
+    .top-nav-bar
+        {
+        background-color: transparent;
+        .nav-container
+            {
+            .link-scroll.vertical-menu
+                {
+                background: $color-background-one;
+                border-bottom: 1px solid darken($containers-borders, 10%);
+                }
+            .link-scroll
+                {
+                background: $color-background-one;
+                .h-menu 
+                    {
+                    ul
+                        {
+                        li
+                            {
+                            border-top: 1px solid darken($containers-borders, 20%);
+                            &:first-child
+                                {
+                                border-top: none;
+                                }
+                            &:last-child
+                                {
+                                border-bottom: 1px solid darken($containers-borders, 20%);
+                                }
+                            }
+                        a
+                            {
+                            color: $primary;
+                            &:hover
+                                {
+                                background-color: transparent;
+                                text-decoration: underline;
+                                }
+                            &::after
+                                {
+                                color: $secondary-content;
+                                }
+                            }
+                        }
+                    }
+                .super-nav
+                    {
+                    border-top-color:  darken($containers-borders, 20%);
+                    border-bottom-color:  darken($containers-borders, 20%);
+                    .slide-menu-toggle-btns
+                        {
+                        li.active
+                            {
+                                a 
+                                {
+                                color: $primary;
+                                background: transparent;
+                                }
+                            }
+                        li
+                            {
+                            &:first-child
+                                {
+                                border-right-color: darken($containers-borders, 20%);
+                                }
+                            a
+                                {
+                                color: $color-content-one;
+                                background-color: $primary;
+                                &:hover
+                                    {
+                                    color: $color-content-one;
+                                    background-color: $primary;
+                                    }
+                                }
+                            }
+                        }
+                    .quick-links-with-sub-nav
+                        {
+                        button:hover
+                            {
+                            background-color: transparent;
+                            }
+                        }
+                    .sub-nav
+                        {
+                        li:first-child
+                            {
+                            border-top-color: darken($containers-borders, 20%);
+                            }
+                        a, &:hover
+                            {
+                            color: $primary;
+                            background-color: $secondary-background;
+                            }
+                        }
+                    .current-page
+                        {
+                        button.sub-nav
+                            {
+                            background-color: lighten($primary, 50%);
+                            }
+                        }
+                    .menu-links,
+                    .menu-links-sn
+                        {
+                        li.selected
+                            {
+                            a
+                                {
+                                color: $color-content-one;
+                                background-color: $primary;
+                                }
+                            }
+                        }
+                    #pagePortletsSn,
+                    #myPagesSn,
+                    #myGroupsSn,
+                    #myCoursesSn
+                        {
+                        li
+                            {
+                                a
+                                {
+                                color: $primary;
+                                background-color: lighten($primary, 50%);
+                                }
+                            }
+                        }
+                    ul
+                        {
+                        button
+                            {
+                            color: $primary;
+                            background: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    .main-nav-submenu-container
+        {
+        .user-login.popover
+            {
+            color: $color-content-one;
+            .init-user-login-btn,
+            .init-logout-btn
+                {
+                background-color: $color-background-one;
+                color: $primary;
+                }
+            .message, .my-info-settings, .user-name 
+                {
+                color: $color-content-one;
+                }
+            }                
+        .user-login
+            {
+            background: $primary;
+            border-bottom: 1px solid $containers-borders;
+            ul
+                {
+                .site-manager,
+                .account-info
+                    {
+                    color: $color-content-one;
+                    }
+                }
+            }
+        }
+    .search-section.popover
+        {
+        border-bottom: 1px solid $containers-borders;
+        }
+    .search-section
+        {
+        .init-search-btn
+            {
+            background: $color-background-one;
+            color: $primary;
+            }
+        }
+    .user-btn,
+    .search-btn
+        {
+        color: $color-content-one;
+        }
+    .login-btn
+        {
+        color: $color-content-one;
+        background-color: transparent;
+        &:active,
+        &:focus
+            {
+            outline: none;
+            box-shadow: none;
+            }
+        }
+    .popover
+        {
+        background-color: $primary;
+        border: none;
+        box-shadow: none;
+        }
+    }
+}

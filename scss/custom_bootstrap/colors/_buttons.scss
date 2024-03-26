@@ -1,0 +1,110 @@
+/* 
+    Theme: Pacifica
+--  Button color specific styles
+--  Create another file to override these styles if needed
+*/
+
+// Colors
+.main-nav-links
+    {
+    @extend %main-nav-links;
+    }
+.sidebar-slide-menu-links
+    {
+    @extend %sidebar-slide-menu-links;
+    }
+.dashboard-menu-links
+    {
+    li
+        {
+        a
+            {
+            @extend %dashboard-menu-links;
+            }
+        a.active-content-color
+            {
+            color: $color-content-one;
+            }
+        }
+    }
+.btn-primary
+    {
+    @extend %btn-primary;
+    }
+.btn-no-bg-hover-color-content-one
+    {
+    @extend %btn-no-bg-hover-color-content-one;
+    }
+.btn-no-bg-hover-primary
+	{
+	@extend %btn-no-bg-hover-primary
+	}
+.btn-success-no-bg-no-hover
+	{
+	@extend %btn-success-no-bg-no-hover
+	}
+.btn-danger
+    {
+    @extend %btn-danger;
+    }
+.btn-success 
+    {
+    @extend %btn-success;
+    }
+.btn-primary-toggle
+    {
+    @extend %btn-primary-toggle;
+    }
+.btn-default-toggle
+    {
+    @extend %btn-default-toggle;
+    }
+.btn-danger-toggle
+    {
+    @extend %btn-danger-toggle;
+    }
+.btn-success-toggle
+    {
+    @extend %btn-success-toggle;
+    }
+.link-secondary
+    {
+    @extend %link-secondary;
+    }
+.btn-primary-jquery-ui-override
+    {
+    @extend %btn-primary-jquery-ui-override;
+    }
+.btn-danger-jquery-ui-override
+    {
+    @extend %btn-danger-jquery-ui-override;
+    }
+.btn-alternate-one
+    {
+    @extend %btn-alternate-one;
+    }
+.btn-alternate-two
+    {
+    @extend %btn-alternate-two;
+    }
+button, .btn 
+    {
+    &:focus 
+        {
+        background-color: lighten($primary, 40%) !important;
+        }
+    }
+
+// Options
+.link-btn
+    {
+    @extend %link-btn;
+    }
+.link-btn-jquery-ui-btn-override
+    {
+    @extend %link-btn-jquery-ui-btn-override;
+    }
+.btn-border
+    {
+    border: 1px solid darken($containers-borders, 20%);
+    }

@@ -1,0 +1,45 @@
+/* 
+    Theme: Pacifica
+--  Utility color specific styles
+--  Create another file to override these styles if needed
+*/
+
+@mixin make-choose-file-btns()
+{
+.btn-primary 
+    {             
+    color: lighten($color-content-two,20%);
+    background-color: $color-background-one;
+    border-color: lighten($color-content-two,70%);
+    &:hover
+        {
+        background-color: lighten($color-background-two,87%);
+        border-color: lighten($color-content-two,70%);
+        color: lighten($color-content-two,20%);
+        }
+    &:focus
+        {
+        color: lighten($color-content-two,20%);
+        background-color: lighten($color-background-two,87%);
+        }
+    &:active 
+        {
+        background-color: lighten($color-background-two,87%);
+        border-color: lighten($color-content-two,70%);
+        color: lighten($color-content-two,20%);
+        }
+    &:active:hover
+        {
+        color: lighten($color-content-two,20%);
+        background-color: lighten($color-background-two,87%);
+        }
+    }
+li.active
+    {
+    a
+        {
+        background-color: lighten($color-background-two,87%);
+        border-color: lighten($color-content-two,70%);
+        }
+    }
+}

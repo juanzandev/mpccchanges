@@ -1,0 +1,54 @@
+/* 
+    Theme: Pacifica
+--  Sidebar layout specific styles
+--  Create another file to override these styles if needed
+*/
+
+.slide-menu-right 
+    {
+    .sidebar-link-title
+        {
+        margin: 5px 10px;
+        padding: 0;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        font-style: normal;
+        }
+    .navbar
+        {
+        li
+            {
+            a
+                {
+                .sidebar-icon-link
+                    {
+                    right: 5px;
+                    left: auto;
+                    }
+                }
+            .anchor-contains-icon
+                {
+                padding-left: 10px;
+                }
+            }
+        li.add-page, li.manage-context, 
+        li.usage-stats, li.copy-courses,
+        li.manage-group, ul.sub-contexts li,
+        li.sidebar-quick-link, li.early-alert
+            {
+            margin: 0 10px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            }
+        li.add-page a.anchor-contains-icon, li.manage-context a.anchor-contains-icon, 
+        li.usage-stats a.anchor-contains-icon, li.copy-courses a.anchor-contains-icon,
+        li.manage-group a, ul.sub-contexts li a,
+        li.sidebar-quick-link a
+            {
+            padding-left: 0;
+            padding-right: 30px;
+            }
+        }
+    }
+
+@import "sidebar_slide_menu_mobile";

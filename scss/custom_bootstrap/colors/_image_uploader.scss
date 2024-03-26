@@ -1,0 +1,34 @@
+﻿/* 
+    Theme: Pacifica
+--  Image uploader color specific styles
+--  Create another file to override these styles if needed
+*/
+
+.filepond--root
+    {
+    font-family: $default-font;
+    color: $body-text;
+    .filepond--panel .filepond--panel-root
+        {
+        background-color: $secondary-background;
+        }
+    .filepond--image-preview-wrapper
+        {
+        .filepond--image-preview-overlay-success
+            {
+            color: $success;
+            }
+        }
+    [data-filepond-item-state="load-invalid"] .filepond--item-panel
+        {
+        background-color: $alert;
+        }
+    .filepond--file-info
+        {
+        background-color: lighten($color-background-two, 10%);
+        }
+    .filepond--file-status
+        {
+        background-color: lighten($color-background-two, 10%);
+        }
+    }

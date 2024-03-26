@@ -1,0 +1,14 @@
+﻿/* 
+    Theme: Pacifica
+--  Print layout specific styles
+--  Create another file to override these styles if needed
+*/
+
+@media print 
+    {
+    a[href]:after 
+        {
+        content: none;
+        }
+    }
+

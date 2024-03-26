@@ -1,0 +1,33 @@
+﻿/* 
+    Theme: Pacifica
+--  Base mobile colors specific styles
+--  Create another file to override these styles if needed
+*/
+
+@media screen and (max-width: $screen-lg-min) {
+    .portlet-style-override
+        {
+        // Hover state
+        .primary-hover-state
+            {
+            color: inherit;
+            &:hover
+                {
+                color: $color-content-one;
+                background-color: $primary;
+                }
+            }
+        .color-background-one.override-hover-state
+            {
+            color: $color-content-one;
+            background-color: $primary;
+            &:hover
+                {
+                color: $color-content-one;
+                background-color: $primary;
+                }
+            }
+        }
+}
+
+

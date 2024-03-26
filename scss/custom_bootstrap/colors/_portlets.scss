@@ -1,0 +1,1097 @@
+﻿/* 
+    Theme: Pacifica
+--  Portlet color specific styles
+--  Create another file to override these styles if needed
+*/
+
+.portlet-grid 
+    {
+    .portlet-header-bar 
+        {
+	      background: $color-background-one;
+        border-bottom: 1px solid $containers-borders;
+        h3,
+        a
+            {
+            color: $primary;
+            text-decoration: none;
+            font-weight: bold;
+            }
+        }
+    .portlet 
+        {
+        border: none; 
+        }
+    .singlePortlet 
+        {
+        border: none;
+        }
+    .alt
+        {
+        background: darken($secondary-background,10%);
+        }
+    .pagination
+        {
+        border: none;
+        li
+            {
+            background: transparent;
+            border: none;
+            }
+        }
+    .display-order-row
+        {
+        background-color: lighten($containers-borders,10%);
+        }
+    .display-order-row.alternatve-item 
+        {
+        background-color: $color-background-one;
+        }
+    .choose-file-btns 
+        {
+        @include make-choose-file-btns;
+        }
+    }
+
+// --------- Old CSS - Should be cleaned up eventually --------- //
+
+.pa-roleContentMenu li a.allowedButton.selected {
+	background-color: lighten($containers-borders, 9%);
+	border: 1px solid $success;
+	color: $success;
+}
+.pa-roleContentMenu li a.allowedButton.byInheritance.selected {
+	background: url("./images/portlet-images/icon/white_check.gif") 8px 10px no-repeat $success;
+}
+.pa-roleContentMenu li a.notallowedButton.selected {
+	background-color: lighten($containers-borders, 9%);
+	border: 1px solid $alert;
+	color: $alert;
+}
+.pa-roleContentMenu li a.notallowedButton.selected .pointer {
+	border-left: 16px solid lighten($containers-borders, 9%);
+}
+.pa-roleContentMenu li a.notallowedButton.selected .pointerBorder {
+	border-left: 17px solid $alert;
+}
+.selected .pointer {
+	border-bottom: 16px solid transparent;
+	border-top: 16px solid transparent;
+	border-left: 16px solid lighten($containers-borders, 9%);
+}
+.selected .pointerBorder {
+	border-bottom: 17px solid transparent;
+	border-top: 17px solid transparent;
+	border-left: 17px solid $success;
+}
+.availablePage:hover .hoverHint, a.availableLayout:hover .hoverHint, .PageLayoutPanel .availableLayout.selected .hoverHint {
+    color: $body-text;
+}
+.PageLayoutPanel .availableLayout.selected {
+	Border: 1px solid $success;
+	background-color: $warning-background;
+	cursor: none;
+}
+
+// buttonBar
+.buttonBar {
+	background-color: $containers-borders;
+}
+.buttonBarCentered {
+	background-color: $containers-borders;
+}
+.buttonBarCenteredVer2 {
+	background-color: lighten($primary, 60%);
+}
+.buttonBarCenteredVer2 input {
+    padding: 3px 15px;
+}
+.buttonBarCenteredVer2 input.enhanced {
+    font-weight: bold;
+}
+
+// groupedGrid
+.groupedGrid {
+	border-bottom: solid 1px darken($containers-borders, 20%);
+	background: $containers-borders;
+}
+.groupedGrid thead, .groupedGrid .ghead {
+	background: $containers-borders;
+	font-weight: bold;
+}
+.groupedGrid thead tbody {
+	background: $containers-borders;
+}
+.groupedGrid th {
+	background-color: lighten($containers-borders, 9%);
+}
+.groupedGrid tfoot, .subheader, .subfooter {
+	background-color: lighten($containers-borders, 9%);
+}
+.groupedGrid tfoot tbody {
+	background-color: lighten($containers-borders, 9%);
+}
+.groupedGrid_VerticalHeader {
+	background-color: lighten($containers-borders, 9%);
+}
+.groupedGrid tr.subGroup td {
+    font-weight: bold;
+}
+.groupedGrid tr.subItem td {
+	border-top: dashed 1px darken($containers-borders, 20%);
+}
+.groupedGrid th a,
+.groupedGrid th a:link,
+.groupedGrid th a:visited {
+    color: $color-content-two;
+}
+.groupedGrid th a:hover {
+    color: $body-text;
+}
+.groupedGrid tbody {
+	background: $color-background-one;
+}
+.groupedGrid tbody tr td.highlight {
+	background: lighten($primary, 60%);
+}
+.groupedGrid tbody tr.alt td.highlight {
+	background: lighten($primary, 60%);
+}
+.groupedGrid tbody tr.highlight {
+	background: lighten($primary, 60%);
+}
+.groupedGrid tbody tr.althighlight {
+    background: $warning-background;
+}
+.groupedGrid tbody tr td.alt {
+	background: lighten($containers-borders, 9%);
+}
+.groupedGrid tbody tr.alt td.alt {
+	background: $containers-borders;
+}
+.groupedGrid thead tr th.highlight {
+    background: $color-background-two;
+    color: $color-content-one;
+}
+.groupedGrid .error {
+    color: $alert;
+}
+.groupedGrid .disable {
+    color: $body-text;
+}
+.groupedGrid .disable td input {
+	color: $body-text;
+}
+.groupedGrid .disable td a:link {
+	color: $body-text;
+}
+.groupedGrid .disable td a:visited {
+	color: $body-text;
+}
+.groupedGrid .disable td a:active {
+	color: $body-text;
+}
+.groupedGrid .innerTable {
+	background: $containers-borders;
+}
+
+// DatePicker
+.cal img {
+    cursor: pointer;
+}
+
+// originalDiv
+div.originalDiv {
+	border: 1px solid darken($containers-borders, 20%);
+	background-color: $color-background-one;
+}
+
+// hint
+.hint {
+    background-color: lighten($secondary-background, 5%);
+    border: 1px solid $containers-borders;
+}
+
+// pToolbar
+.pToolbar ul {
+	border-bottom: 1px solid $containers-borders;
+}
+
+/* Styles for Menu Items */
+.pToolbar a,
+.pToolbar a:link,
+.pToolbar a:visited {
+    color: $color-content-one;
+    background: $primary; /* IE6 needs this */
+}
+.pToolbar .menu a.hasKids {
+	background: $primary url(./images/toolbar_rightarrow.gif) center right no-repeat;
+}
+.pToolbar a:hover,
+.pToolbar a.active,
+.pToolbar .pTool a:hover,
+.pToolbar .pTool a.active {
+	color: $color-content-one;
+	background-color: $primary;
+}
+/* End */
+
+.pToolbar {
+	background: $primary;
+	color: $color-content-one;
+	border-top: solid 1px lighten($containers-borders, 5%);
+}
+.pToolbar .pTool {
+	border-right: solid 1px lighten($containers-borders, 5%);
+}
+.pToolbar .menu a,
+.pToolbar .menu a:link,
+.pToolbar .menu a:visited {
+	border: 1px solid $containers-borders;
+}
+.pToolbar li.off a,
+.pToolbar li.off a:link,
+.pToolbar li.off a:visited,
+.pToolbar li.off a:hover,
+.pToolbar li.off a.active,
+.pToolbar .pTool li.off a:hover,
+.pToolbar .pTool li.off a.active {
+	background-color: rgba($primary, .18);
+	color: $color-content-two;
+}
+
+// Start Collapsible Panel Styles
+.cpHeader {
+	color: $color-content-one;
+	background-color: lighten($primary, 60%);
+}
+.cpBody {
+    background-color: $color-background-one;
+}
+.cpLbl {
+    color: $primary;
+}
+.cpTxt {
+    color: $success;
+}
+div.cp div.cpHead {
+	background: $containers-borders;
+}
+// End Collapsible Panel Styles
+
+// START DateRangeEdit Styles
+.dateRangeEdit div.opt a,
+.dateRangeEdit div.opt a:link,
+.dateRangeEdit div.opt a:visited {
+    color: $color-content-two;
+}
+.dateRangeEdit div.opt a:hover {
+    color: $primary;
+}
+.dateRangeEdit div.opt label:hover {
+	color: $primary;
+}
+// END DateRangeEdit
+
+// accessibility
+#AccessiblityPopup .optionContainer span {
+    background: url("../Images/accessbility-icons.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+
+// START Portlet Content Tabs */
+.contentTabs ul {
+	border-bottom: 1px solid darken($containers-borders, 20%);
+}
+.contentTabs li {
+	border: solid 1px darken($containers-borders, 20%);
+	border-bottom: none;
+	background: $containers-borders;
+}
+.contentTabs li.selected {
+	border-color: darken($containers-borders, 20%);
+	background: $color-background-one;
+}
+
+div.tabbox {
+	border-color: darken($containers-borders, 20%);
+}
+// END Page Portlet Content Tabs
+
+// thumbDiv
+div.thumbDiv {
+	border: 1px solid darken($containers-borders, 20%);
+	padding: 2px;
+	float: left;
+	z-index: 2;
+}
+
+// action
+div#action {
+	border: 1px solid darken($containers-borders, 20%);
+	background-color: lighten($containers-borders, 9%);
+}
+
+// multiUp
+.multiUp table {
+	background: lighten($containers-borders, 9%);
+}
+.multiUp table thead {
+	background: $containers-borders;
+}
+
+// tblUserSelector
+#tblUserSelector .largehint {
+	background-color: lighten($containers-borders, 9%);
+	border: 1px solid darken($containers-borders, 20%);
+}
+#tblUserSelector #userSelectorCell .userlistTitleCell {
+	background-color: $containers-borders;
+}
+
+// Validation 
+
+.error {
+    color: $alert;
+    font-weight: bold;
+}
+
+.glyphicons.glyphicons-minus-sign.delete-ordered-item {
+    color: $alert;
+} 
+
+ .glyphicon.glyphicon-ok.approve-ordered-item {
+     color:$ok;
+ }
+ .multi-file-upload .header-row {
+     background-color: $secondary-background;
+ }
+
+ // My Pages Setup
+ .MyPagesSetup .glyphicons.glyphicons-circle-arrow-right, .MyPagesSetup .glyphicons.glyphicons-circle-arrow-left {
+     color: $primary;
+ }
+
+ // Rss Portlet
+ .RssPortlet .rss-folder {
+     color: $primary;
+ }
+
+.RssPortlet .custom-icon.icon-rss {
+	color: $primary;
+}
+
+.RssPortlet .categories-and-feed-header-row {
+    color: $primary;
+}
+
+.RssPortlet .categories-and-feed, .RssPortlet .rss-feed-item-alt-row {
+	background-color: lighten($containers-borders, 9%);
+}
+
+.RssPortlet .item-header {
+	background-color: $containers-borders;
+}
+
+.RssPortlet .category-header {
+    color: $color-content-two;
+}
+
+// Forums Portlet
+.forums-portlet .single-post-container .original-post-row a 
+    {
+    color: $color-content-one;
+    }
+.forums-portlet .alternate-post 
+    {
+    background-color: lighten($secondary-background, 9%);
+    }
+.forums-portlet .original-post.alternate-post 
+    {
+    background-color: mix($color-background-one, $primary, 85%);
+    }
+.forums-portlet .original-post
+    {
+    background-color: mix($color-background-one, $primary, 85%);
+    }
+.forums-portlet .unread-post
+    {
+    background-color: $light-green;
+    }
+.forums-portlet .requires-approval, 
+.forums-portlet .original-post.requires-approval, 
+.forums-portlet .unread-post.requires-approval,
+.forums-portlet .original-post.unread-post.requires-approval 
+    {
+    background-color: $warning-background;
+    }
+.forums-portlet .secondary-alternate-background-one.original-post-row.primary-background 
+    {
+    background-color: $primary;
+    }
+
+// ICS specific styles
+
+	// Portletstyle
+
+	.sharedToolsListRepeaterItemContainer:hover 
+		{
+		background-color: lighten($containers-borders, 9%);
+		border: 1px solid $primary;
+	}
+	.toolsListRepeaterItemContainer:hover 
+		{
+		background-color: lighten($primary, 60%);
+		border: 1px solid $primary;
+	}
+	.featuredToolsListRepeaterItemContainer:hover {
+		background-color: lighten($primary, 60%);
+		border: 1px solid $primary;
+	}
+	table.assignmentGrid.itemHover tr:hover,
+	table.assignmentGrid.itemHover tr:hover td{
+		border:1px solid $primary;
+		background-color: lighten($primary, 60%);
+	}
+	table.assignmentGrid th{
+		border: 1px solid $containers-borders;
+		background-color: lighten($containers-borders, 9%);
+	}
+	table.assignmentGrid td{    
+		border: 1px solid $containers-borders;
+	}
+	.inlineLink:hover
+		{
+		border-color: $primary;
+	}
+
+	// Meeting portlet
+
+	.meetingPortlet .goToMeetingLink {
+		border: 1px solid $containers-borders;
+		background: linear-gradient(top,lighten($containers-borders, 9%), $containers-borders);
+	}
+    .previousMeetingTable tr:hover {
+        background-color: lighten($primary, 60%);
+    }
+	.meetingPortlet .modalDiv {
+		background-color: $color-background-one;
+		border: 1px solid $color-background-two;
+		box-shadow: 2px 2px 30px rgba(0,0,0,0.5);
+	}
+	.meetingPortlet .modalPopup {
+		background-color: $containers-borders;
+		filter: Alpha(Opacity=70);
+		opacity: 0.7;
+	}
+	.meetingPortlet .modalHeading {
+		background-color: lighten($containers-borders, 9%);
+	}
+	.meetingPortlet .innerModal {
+		border: 1px solid darken($containers-borders, 2%);
+		background-color: lighten($containers-borders, 9%);
+	}
+
+	// Chat
+
+	.chat-portlet.chat-wrapper .message-info.lastActivity.start > td.name {
+		border-bottom: 1px solid $containers-borders;
+	}
+	.chat-portlet.chat-wrapper .message-info.repeat.end > td.name {
+		border-bottom: 1px solid $containers-borders;
+	}
+	.chat-portlet.chat-wrapper .table > tbody > tr > td.time-stamp {
+		border-bottom: 1px solid $containers-borders;
+		border-top: 1px solid $containers-borders;
+	}
+	.chat-portlet.chat-wrapper .table > tbody > tr > td.message {
+		border-bottom: 1px solid $containers-borders;
+		border-top: 1px solid $containers-borders;
+	}
+
+ // LMS specific styles
+	
+	// Course organizer
+
+	.courseOrgPortlet .linkButton {
+		color: $primary;
+	}
+
+	// Coursework
+
+	div.assignmentTitle.unitPast span{
+		color: $body-text;
+	}
+	table.assignmentGrid.itemHover tr:hover,
+	table.assignmentGrid.itemHover tr:hover td,
+	table.cwkTableDisplay.itemHover tr:hover td,
+	table.reorder.itemHover tr:hover,
+	table.reorder.itemHover tr:hover td{
+		border:1px solid $containers-borders;
+		background-color: $containers-borders;
+	}
+	.CourseworkPortlet table.cwkTableDisplay th,
+	.CourseworkPortlet table.assignmentGrid th{
+		border: 1px solid $containers-borders;
+		background-color: $containers-borders;
+	}
+	.CourseworkPortlet table.cwkTableDisplay td,
+	.CourseworkPortlet table.assignmentGrid td{
+		border: 1px solid $containers-borders;
+	}
+	div.assignmentDisplay:hover {
+		border-color: $containers-borders;
+		background-color: lighten($primary, 60%);
+	}
+	div.assignmentDisplay.closed,a.assignmentDisplay.closed{
+		color: $body-text;
+	}
+	div.assignmentDisplay.closed a{
+		color: $body-text;
+	}
+	div.assignmentDisplay.late{
+		background-color: $warning-background;
+	}
+	div.assignmentDisplay.retake{
+		background-color: lighten($primary, 60%);
+	}
+	div.assignmentDisplay.new{
+		background-color: lighten($success, 50%);
+	}
+	div.assignmentDisplay.newlyOpen{
+		background-color: lighten($success, 50%);
+	}
+	div.assignmentDisplay.newFeedback{
+		background-color: lighten($success, 50%);
+	}
+	div.detailInfo.studentInfo:hover{
+    	background-color: lighten($primary, 60%);
+		border:1px solid $containers-borders;
+	}
+	div.detailInfoLink:hover{
+		background-color: lighten($containers-borders, 9%);
+		border:1px solid $containers-borders;
+	}
+	div.assignmentStepHeader.expandable:hover{
+		background-color: lighten($containers-borders, 9%);
+		border:1px solid darken($containers-borders, 20%);
+	}
+	div.menuContent, .moreHover{
+		background-color: lighten($containers-borders, 9%);
+	}
+	div.detailAction div.detailActionDeleteAssignment span{
+		color: $alert;
+	}
+	div.feedbackMessage.notVisible span{
+		color: $primary;
+	}
+	a.selectAssignment:hover{
+		background-color: lighten($containers-borders, 9%);
+		border:1px solid $containers-borders;
+	}
+	.assignmentFormat {
+		border-color: $color-background-one;
+	}
+	.assignmentFormat:hover{
+		background-color: lighten($containers-borders, 9%);
+		border-color: $containers-borders;
+	}
+	table.reorderHeader th.assignMetaOrgHeader, table.reorderHeader th.assignMetaDate{
+		border-left:1px solid $containers-borders;
+	}
+	.timeBarNormal.open{
+		color: $body-text;
+	}
+	div.imgGallery span{
+		color: $body-text;
+	}
+	div.richText div.equation img, div.editEquation div.equation img,
+	div.questionTypeDisplay div.equation img {
+		border:1px solid $containers-borders;
+	}
+	.questionTable tr.distractor.multiAdd td{
+		background-color: lighten($containers-borders, 9%);
+		border-bottom:1px dashed $containers-borders;
+	}
+	div.testHeader li.timeRemaining.cwk-taketest-warning{
+		background-color: lighten($alert, 50%);
+	}
+	div.testHeader li.exitTest a{
+		color: $alert;
+	}
+	div.reviewFooter a {
+		color: $alert;
+	}
+	.CourseworkPortlet .matchDisplayTable td{
+		border:1px solid $containers-borders;
+	}
+	ul.sortable li
+		{
+		border:1px solid $containers-borders;
+		background: $color-background-one;
+	}
+	ul.sortable li.sortableHighlight{
+		background-color: $warning-background;
+		border: 1px solid darken($warning-background, 50%);
+	}
+	div.bonusModal div.classicModal-innerModal{
+		border-color: $containers-borders;
+	}
+	div.bonusModal div.classicModal-innerModal div.classicModal-modalHeading{
+		background-color: lighten($containers-borders, 9%);
+		color: $color-background-one;
+	}
+	div.openAssignment span.assignmentStatus strong {
+		color: $primary;
+	}
+	div.lateAssignment span.assignmentStatus strong {
+		color: $alert;
+	}
+	div.reviewQuestions div.questionDisplay.showCollapse div.collapseGradeDisplay:hover,
+	div.reviewQuestions div.questionDisplay.showExpand div.expandGradeDisplay:hover{
+		border:1px solid $containers-borders;
+	}
+	div.collapseGradeDisplay.zero, div.expandGradeDisplay.zero, table.multiReview .incorrect{
+		border: 1px solid $alert;
+		background-color: lighten($containers-borders, 9%);
+	}
+	div.expandFooter div.feedbackContainer:hover{
+		background-color: lighten($containers-borders, 9%);
+		border:1px solid $containers-borders;
+	}
+	.CourseworkPortlet td.correct{
+		color: $success;
+	}
+	.CourseworkPortlet div.correct{
+		color: $success;
+	}
+	td.incorrect{
+		color: $alert;
+	}
+	div.incorrect{
+		color: $alert;
+	}
+	td.partial{
+		color: $body-text;
+	}
+	 .forumAssignmentSummarySubHeader a, .forumAssignmentSummarySubHeader a:visited, .forumAssignmentSummarySubHeader a:cwk-active
+		{
+		color: $body-text;
+	}
+	.forumAssignmentSummaryControlValid span
+		{
+		color: $body-text;
+	}
+	a.turnInAssignment, a.turnInAssignment:link, a.turnInAssignment:visited{
+		color: $color-background-one;
+	}
+	span.waitAttempt{
+		background-color: lighten($containers-borders, 9%);
+		border-color: $containers-borders;
+		color: $body-text;
+	}
+	a.uploadFile, a.uploadFile:link, a.uploadFile:visited, a.startAttempt span, a.startAttempt:visited span, a.startAttempt:link span {
+		color: $primary;
+	}
+	.onlineAssignmentAttempts a, .onlineAssignmentAttempts a:visited, .onlineAssignmentAttempts a:cwk-active, .onlineAssignmentAttempts a:link {
+		color: $body-text;
+	}
+	.onlineAssignmentAttempts li.ignored a, div.retakeGradeContainer.ignored,div.retakeGradeContainer.ignored .retakeGrade {
+		color: $body-text;
+	}
+	.CourseworkPortlet .gradeAssignment.notGraded {
+		background-color: $warning-background;
+	}
+	div.overrideDisplay:hover{
+		background-color: lighten($containers-borders, 9%);
+		border:1px solid $containers-borders;
+	}
+	.passwordStrength1
+		{
+		background-color: $warning-background;
+	}
+	.passwordStrength2
+		{
+		background-color: darken($warning-background, 10%);
+	}
+	.passwordStrength3
+		{
+		background-color: darken($warning-background, 20%);
+	}
+	.passwordStrength4
+		{
+		background-color: darken($warning-background, 50%);
+	}
+	.passwordStrength5
+		{
+		background-color: darken($warning-background, 80%);
+	}
+	.secureBrowserInfo .returnLink
+		{
+		background-color: lighten($primary, 60%);
+		border: 1px solid $containers-borders;
+	}
+	.CourseworkPortlet .override-modal-error {
+		color: $alert;
+	}
+	div.manualGradeFinal b{
+		color: $alert;
+	}
+	.selectiveRelease-ruleSelector-groupHeader:before {
+		background: $color-content-two;
+	}
+	.selectiveRelease-ruleSelector-row:before {
+		background: $color-content-two;
+	}
+	.selectiveRelease-ruleSelector-row:last-child:before {
+		background: $color-content-two;
+	}
+	.selectiveRelease-ruleSelector-row:after {
+		background: $color-content-two;
+	}
+	input.selectiveRelease-ruleSelector-validationFailed {
+		border: solid 2px $alert;
+	}
+	.selectiveRelease-ruleSelector-ignoredRule {
+		background-color: lighten($alert, 50%);
+	}
+	.selectiveRelease-ruleSelector-selectAssignmentButton{
+		color: $primary;
+	}
+	.selectiveRelease-ruleSelector-assignmentLink {
+		color: $primary;
+	}
+	.portlet-grid .portlet .rubric tr.staticGrid-columnHeader th.staticGrid-rowLabelColumn:first-child {
+		background-color: darken($containers-borders, 20%);
+		color: $color-content-one;
+	}
+	.portlet-grid .portlet .rubric .staticGrid-dataColumn {
+		background: $color-background-one;
+	}
+	.portlet-grid .portlet .rubric .staticGrid-rowLabelColumn,
+	.portlet-grid .portlet .rubric .staticGrid-rowLabelColumn.selecting {
+		background-color: lighten($primary, 60%);
+	}
+	.portlet-grid .portlet .rubric td.selected,
+	.portlet-grid .portlet .rubric td.selected.selecting {
+		background: none repeat scroll 0 0 #ffffe5;
+		border: 2px solid #e7d937;
+	}
+	.portlet-grid .portlet .rubric-editing *:not(.mce-btn)>button {
+		color: $color-content-two;
+	}
+	.portlet-grid .portlet .rubric-editing tr.staticGrid-dataRow th.staticGrid-rowLabelColumn {
+		background: $color-background-one;
+	}
+	.portlet-grid .portlet .rubric-editing tr.staticGrid-columnHeader th.staticGrid-dataColumn {
+		background: $color-background-one;
+	}
+	.portlet-grid .portlet .rubric-editing tr > th.staticGrid-dataColumn.panelEditor-formView,
+	.portlet-grid .portlet .rubric-editing tr > th.staticGrid-rowLabelColumn.panelEditor-formView {
+		background: lighten($containers-borders, 9%);
+	}
+	.portlet-grid .portlet .rubric-editing .addScoreOverrideButton .link {
+		color: $body-text;
+	}
+	.portlet-grid .portlet .rubric-editing .panelEditor-formView label.rubric-validationFailure {
+		color: $alert;
+	}
+	.portlet-grid .portlet .rubric-editing .panelEditor-formView input.rubric-validationFailure {
+		border: solid 3px $alert;
+	}
+	.rubric .panelEditor-formView .panelEditor-saveButton {
+		color: $body-text;
+		background-color: $primary;
+		border-bottom:0.1em solid $containers-borders;
+		border-right:0.1em solid $containers-borders;
+		border-top:0.1em solid $containers-borders;
+		border-left:0.1em solid $containers-borders;
+	}
+	.rubric .panelEditor-formView .panelEditor-saveButton:hover {
+		background-color: $primary;
+	}
+	.rubric .panelEditor-formView .panelEditor-cancelButton {
+		color: $primary;
+	}
+	.rubric .panelEditor-formView .panelEditor-cancelButton:hover {
+		color: $primary;
+	}
+	.rubric .panelEditor-formView .deleteButton {
+		color: $alert;
+	}
+	.portlet-grid .portlet .rubric-editing tr > *:last-child {
+		background: $warning-background;
+		border: solid 1px $containers-borders;
+	}
+	.portlet-grid .portlet .rubric-editing > tbody > tr:last-child > * {
+		background: $warning-background;
+		border: solid 1px $containers-borders;
+	}
+	.portlet-grid .portlet .rubric-grading td.selecting,
+	.portlet-grid .portlet .rubric-grading th.selecting {
+		background: lighten($containers-borders, 9%);
+	}
+	.rubric:not(.rubric-grading) .facultyComment,
+	.rubric-grading .facultyComment.panelEditor-displayView .commentText {
+		background: $color-background-one;
+		border: 1px solid $primary;
+	}
+	.rubric:not(.rubric-grading) .facultyComment:after,
+	.rubric-grading .facultyComment.panelEditor-displayView .commentText:after {
+		border-left-color: $color-background-one;
+	}
+	.rubric:not(.rubric-grading) .facultyComment:before,
+	.rubric-grading .facultyComment.panelEditor-displayView .commentText:before {
+		border-left-color: $primary;
+	}
+	.rubric-grading .facultyComment *:not(.mce-btn)>button {
+		color: $body-text;
+	}
+
+	// Gradebook
+	
+	.gradebookPortlet .fullGradebookGrid tr.superheaderRow>th
+		{
+		background-color: $containers-borders;
+	}
+	.gradebookPortlet .fullGradebookGrid .gradeItemColumn .droppedGrade
+		{
+		color: $body-text;
+	}
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.gradeItemColumn.altColumn
+		{
+		background-color: lighten($primary, 60%);
+	}
+	.gradebookPortlet .fullGradebookGrid tbody>tr.alt:hover>td,
+	.gradebookPortlet .fullGradebookGrid tbody>tr.alt:hover>td.gradeItemColumn.altColumn
+		{
+		background-color: lighten($primary, 60%);
+	}
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.studentColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.hoverColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.hoverColumn.altColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr.alt:hover>td.hoverColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr.alt:hover>td.hoverColumn.altColumn
+		{
+		background-color: lighten($containers-borders, 9%);
+	}
+	.gradebookPortlet .fullGradebookGrid thead>tr>th.gradeItemColumn.hoverColumn,
+	.gradebookPortlet .fullGradebookGrid thead>tr>th.gradeItemColumn.hoverColumn.altColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.gradeItemColumn.altColumn,
+	.gradebookPortlet .fullGradebookGrid tfoot>tr>td.gradeItemColumn.hoverColumn,
+	.gradebookPortlet .fullGradebookGrid tfoot>tr>td.gradeItemColumn.hoverColumn.altColumn
+		{
+		border-top: double 1px $primary;
+		border-bottom: double 1px $primary;
+	}
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td:first-child,
+	.gradebookPortlet .fullGradebookGrid tr>th.gradeItemColumn.hoverColumn,
+	.gradebookPortlet .fullGradebookGrid tr>th.gradeItemColumn.hoverColumn.altColumn,
+	.gradebookPortlet .fullGradebookGrid tr>td.gradeItemColumn.hoverColumn,
+	.gradebookPortlet .fullGradebookGrid tr>td.gradeItemColumn.hoverColumn.altColumn
+	{
+		border-left: double 1px $primary;
+	}
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.studentColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td:last-child,
+	.gradebookPortlet .fullGradebookGrid tr>th.gradeItemColumn.hoverColumn,
+	.gradebookPortlet .fullGradebookGrid tr>th.gradeItemColumn.hoverColumn.altColumn,
+	.gradebookPortlet .fullGradebookGrid tr>td.gradeItemColumn.hoverColumn,
+	.gradebookPortlet .fullGradebookGrid tr>td.gradeItemColumn.hoverColumn.altColumn
+		{
+		border-right: double 1px $primary;
+	}
+	.gradebookPortlet .fullGradebookGrid thead>tr.superheaderRow>th.altColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr.alt>td.altColumn,
+	.gradebookPortlet .fullGradebookGrid tfoot>tr>td.altColumn
+		{
+		background-color: $containers-borders;
+	}
+	.gradebookPortlet .fullGradebookGrid tbody>tr>td.altColumn
+		{
+		background-color: $containers-borders;
+	}
+	.gradebookPortlet .fullGradebookGrid .previousButtonColumn,
+	.gradebookPortlet .fullGradebookGrid .nextButtonColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.previousButtonColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.nextButtonColumn
+		{
+		border: solid 2px $primary;
+	}
+	.gradebookPortlet .fullGradebookGrid tr.superheaderRow>th.previousButtonColumn,
+	.gradebookPortlet .fullGradebookGrid tr.superheaderRow>th.nextButtonColumn,
+	.gradebookPortlet .fullGradebookGrid .previousButtonColumn,
+	.gradebookPortlet .fullGradebookGrid .nextButtonColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.previousButtonColumn,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.nextButtonColumn
+		{
+		background-color: lighten($primary, 60%);
+	}
+	.gradebookPortlet .fullGradebookGrid tr.superheaderRow>th.previousButtonColumn.gbk-disabled,
+	.gradebookPortlet .fullGradebookGrid tr.superheaderRow>th.nextButtonColumn.gbk-disabled,
+	.gradebookPortlet .fullGradebookGrid .previousButtonColumn.gbk-disabled,
+	.gradebookPortlet .fullGradebookGrid .previousButtonColumn.gbk-disabled:hover,
+	.gradebookPortlet .fullGradebookGrid .nextButtonColumn.gbk-disabled,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.previousButtonColumn.gbk-disabled,
+	.gradebookPortlet .fullGradebookGrid tbody>tr:hover>td.nextButtonColumn.gbk-disabled
+		{
+		background-color: lighten($containers-borders, 9%);
+		border-color: $containers-borders;
+	}
+	.gradebookPortlet .navBar.fullGradebookNavBar #FullGradebookTab,
+	.gradebookPortlet .navBar.evaluationsNavBar #EvaluationsTab,
+	.gradebookPortlet .navBar.letterGradeAdminNavBar #GradeLetterTab,
+	.gradebookPortlet .navBar.weightingNavBar.hideExpandedTab #WeightingTab
+		{
+		background-color: $color-background-one;
+	}
+	.gradebookPortlet .navBar.attendanceDetailNavBar #EvaluationsTab,
+	.gradebookPortlet .navBar.evaluationDetailNavBar #EvaluationsTab
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .navBar.weightingNavBar #WeightingTab
+		{
+		background-color: lighten($containers-borders, 9%);
+	}
+	.gradebookPortlet .weightingListControl .missingWeight
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .weightingListControl tr.missingChildItemWeight>td.itemNameColumn
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .weightingListControl.allowWeightEntry .itemWeightList>tbody>tr.missingWeightRow .weightColumn,
+	.gradebookPortlet .weightingListControl.allowWeightEntry.missingWeight .itemWeightList>tfoot>tr
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .weightingListControl.allowWeightEntry.invalidTotalWeight table.itemWeightList>tfoot>tr
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .weightingListControl.allowWeightEntry.invalidTotalWeight table.itemWeightList>tfoot>tr>td.weightColumn
+		{
+		color: $alert;
+	}
+	.gradebookPortlet .weightingListControl table.itemWeightList>tbody>tr>td.extraCreditColumn,
+	.gradebookPortlet .weightingListControl table.extraCreditList>tbody>tr>td.extraCreditColumn
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .weightingListControl .extraCreditList>tfoot>tr
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .weightingAdmin .selectPanel li a:hover
+		{
+		color: $body-text;
+		border: 1px solid $containers-borders;
+		background-color: lighten($containers-borders, 9%);
+	}
+	.gradebookPortlet .weightingSetupScreen tr.optionItemSelected>td,
+	.gradebookPortlet .weightingSetupScreen .optionItemSelected
+		{
+		background-color: lighten($containers-borders, 9%);
+		border-top: 1px solid $containers-borders;
+		border-bottom: 1px solid $containers-borders;
+	}
+	.gradebookPortlet .studentDetailScreen.attendanceFailure .finalGradePanel
+		{
+		color: $primary;
+		background-color: $warning-background;
+		border-color: $primary;
+	}
+	.gradebookPortlet .studentDetailScreen.attendanceFailure.facultyView .finalGradePanel
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .studentDetailScreen.facultyView .attendanceFailureMessage span
+		{
+		color: $body-text;
+	}
+	.gradebookPortlet .studentDetailScreen .extraCreditGroup .gradeGroupSidebar
+		{
+		background-color: $warning-background;
+	}
+	.gradebookPortlet .studentDetailScreen .gradeItemGrid .droppedGrade
+		{
+		color: $body-text;
+	}
+	.gradebookPortlet .gradeList .onlineAssignment
+		{
+		color: $primary;
+	}
+	.gradebookPortlet caption
+		{
+		color: $body-text;
+	}
+	.gradebookPortlet .evaluationDetailScreen .attendanceAdmin .includeButton strong,
+	.gradebookPortlet .evaluationDetailScreen .attendanceAdmin .isIncludedText strong
+		{
+		color: $body-text;
+	}
+	.gradebookPortlet .evaluationDetailScreen .attendanceAdmin .doNotIncludeButton strong,
+	.gradebookPortlet .evaluationDetailScreen .attendanceAdmin .isNotIncludedText strong
+		{
+		color: $body-text;
+	}
+	.gradebookPortlet .letter-grade-screen .LetterConfigModalPopup {	
+		background: $color-background-one;	
+		border-color: $containers-borders;
+	}
+	.gradebookPortlet .letter-grade-screen .LetterConfigModalPopupHeader {
+		background: $containers-borders;
+	}
+	.gradebookPortlet .letter-grade-screen .LetterConfigModalPopupBody {
+		background-color: lighten($containers-borders, 9%);
+	} 
+	.gradebookPortlet table.tabularData > thead > tr > th
+		{
+		background-color: $color-background-one;
+	}
+	.gradebookPortlet .mainStudentListScreen .otherFeaturesColumn .attendancePanel .includeButton,
+	.gradebookPortlet .mainStudentListScreen .otherFeaturesColumn .attendancePanel .doNotIncludeButton,
+	.gradebookPortlet .mainStudentListScreen .otherFeaturesColumn .attendancePanel .helpLink
+		{
+		border-right: solid 1px $containers-borders;
+		background-color: lighten($primary, 60%);
+	}
+
+	// Attendance
+
+	.Attendance .groupedGrid thead th,
+	.Attendance .groupedGrid thead td,
+	.Attendance .groupedGrid tbody.gbody tr th,
+	.Attendance .groupedGrid tfoot td
+		{
+		color: $body-text;
+		background: $containers-borders;
+	}
+	.Attendance .attHighlight A:link, 
+	.Attendance .attHighlight A:visited, 
+	.Attendance .attHighlight A:active, 
+	.Attendance .attHighlight A:hover,
+	.Attendance .attHighlight A:visited:hover 
+		{
+		color: $alert;
+	}
+
+	// Static grid
+
+	.portlet-grid .portlet .staticGrid {
+		border: solid 1px $containers-borders;
+	}
+	.portlet-grid .portlet .staticGrid tr > *
+		{
+		border: solid 1px $containers-borders;
+		background: $color-background-one;
+	}
+	.portlet-grid .portlet .staticGrid tr th,
+	.portlet-grid .portlet .staticGrid tr td {
+		color: $body-text;
+	}
+
+@import "portlets_mobile";
