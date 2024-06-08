@@ -1,5 +1,36 @@
 # Disclaimer: All CSS changes will be directly uploaded to the style.css file. None of the previous styles will be modified, but new ones will be created.
 
+Home --> Background JS
+<p>
+<script type="text/javascript">
+  const images = [
+    'https://www.cune.edu/application/files/9715/7002/4021/midplains.jpg',
+    'https://www.geneva.edu/_files/mygen/oldmain-bluesky.jpg',
+    'https://mpcsandbox.jenzabarcloud.com/ICS/staticpages/getfile.aspx?target=/moxiemanager/files/users/8763dea8-e81f-4c7f-9a00-7022fbea3084/AllCampus1.png'
+  ];
+
+  function getRandomImage() {
+    return images[Math.floor(Math.random() * images.length)];
+  }
+
+  function setRandomBackgroundImage() {
+    const container = document.querySelector('.container');
+    container.style.backgroundImage = `url('${getRandomImage()}')`;
+  }
+
+  // Initial background image
+  setRandomBackgroundImage();
+ </script>
+</p>
+
+Home --> Background CSS
+style="background: url('https://www.cune.edu/application/files/9715/7002/4021/midplains.jpg')
+
+
+
+
+
+
 Student --> Add/Drop and Withdrawal Deadliness --> Purpose
 I forgot to save the HTML for the original.
 
