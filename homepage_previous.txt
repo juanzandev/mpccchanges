@@ -1,0 +1,46 @@
+<div class="container hidden-xs hidden-sm" style="padding-bottom: 25px;">
+<div class="row">
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Form_Development/"><img id="home-img" src="/ICS/icsfs/mm/student.png?target=590fe00e-ae7f-4ced-b078-4ef9925db748" alt="Student tab"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Form_Development/Residence_Life/"><img id="home-img" src="/ICS/icsfs/mm/student_life.png?target=1f7efde6-e2f9-4565-bbe1-adbe080e6372" alt="Student Life tab"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Form_Development/Registration.jnz"><img id="home-img" src="/ICS/icsfs/mm/register.png?target=105ccb65-d5c3-4f33-baa3-9db53c84cdaa" alt="Registration tab"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Admissions/"><img id="home-img" src="/ICS/icsfs/mm/admissions.png?target=cfb4f598-8f9c-4bc5-8ebc-6b78d9cb3cf0" alt="Admissions tab"></a></div>
+</div>
+<div class="row">
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Employee/"><img id="home-img" src="/ICS/icsfs/mm/employees.png?target=4655328d-46e2-495e-a7ab-2f5d5c5d0c25" alt="Employee tab"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Faculty/"><img id="home-img" src="/ICS/icsfs/mm/faculty.png?target=962a5e27-3d39-4642-9f68-0b85e9fe71c2" alt="Faculty tab"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><img id="home-img" src="/ICS/icsfs/mm/athletics.png?target=93738b87-a648-4397-8c90-6829c7abe9c9" alt="Athletics tab">
+<div id="dropdown-menu" class="dropdown-content"><a href="https://npccknights.com/landing/index">NPCC Knights</a> <a href="https://mccindians.com/landing/index">MCC Indians</a> <a href="https://www.mpcc.edu/rodeo/index.php">Rodeo</a></div>
+</div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><img id="home-img" src="/ICS/icsfs/mm/forms.png?target=c5405800-bfdf-463c-8bbd-6a83a2e54f2a" alt="Forms tab"></div>
+</div>
+<div class="row">
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a href="https://www.freshideasfood.com/mpccdining/" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/mm/fresh_ideas.png?target=2ff6387d-0430-423a-9e4b-002bfdbb1f6d" alt="Fresh Ideas"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a href="https://midplainscommunity.sysaidit.com/servicePortal" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/mm/help_desk.png?target=9c72fd47-517f-41fd-a82f-1fadaf9fa28f" alt="Helpdesk"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><img id="home-img" src="/ICS/icsfs/mm/cost___aid.png?target=d811b732-7a7d-4a61-ae78-3674bb681e6f" alt="Cost and Aid"></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><img id="home-img" src="/ICS/icsfs/mm/weather.png?target=4906c815-f318-486e-98d3-404cb49270d3" alt="Weather"></div>
+</div>
+</div>
+<div class="container hidden-lg hidden-md">
+<div class="row">
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Form_Development/"><img id="home-img" src="/ICS/icsfs/mm/student.png?target=590fe00e-ae7f-4ced-b078-4ef9925db748" alt="Student tab"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Form_Development/Residence_Life/"><img id="home-img" src="/ICS/icsfs/mm/student_life.png?target=1f7efde6-e2f9-4565-bbe1-adbe080e6372" alt="Student Life tab"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Form_Development/Registration.jnz"><img id="home-img" src="/ICS/icsfs/mm/register.png?target=105ccb65-d5c3-4f33-baa3-9db53c84cdaa" alt="Registration tab"></a></div>
+</div>
+<div class="row">
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Admissions/"><img id="home-img" style="padding-bottom: 2px;" src="/ICS/icsfs/mm/admissions.png?target=cfb4f598-8f9c-4bc5-8ebc-6b78d9cb3cf0" alt="Admissions tab"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><img id="home-img" style="padding-bottom: 1px;" src="/ICS/icsfs/mm/forms.png?target=c5405800-bfdf-463c-8bbd-6a83a2e54f2a" alt="Forms tab"></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><img id="home-img" src="/ICS/icsfs/mm/athletics.png?target=93738b87-a648-4397-8c90-6829c7abe9c9" alt="Athletics tab">
+<div id="dropdown-menu" class="dropdown-content"><a href="https://npccknights.com/landing/index">NPCC Knights</a> <a href="https://mccindians.com/landing/index">MCC Indians</a> <a href="https://www.mpcc.edu/rodeo/index.php">Rodeo</a></div>
+</div>
+</div>
+<div class="row">
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Employee/"><img id="home-img" src="/ICS/icsfs/mm/employees.png?target=4655328d-46e2-495e-a7ab-2f5d5c5d0c25" alt="Employee tab"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://mpcsandbox.jenzabarcloud.com/ICS/Faculty/"><img id="home-img" src="/ICS/icsfs/mm/faculty.png?target=962a5e27-3d39-4642-9f68-0b85e9fe71c2" alt="Faculty tab"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://midplainscommunity.sysaidit.com/servicePortal" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/mm/help_desk.png?target=9c72fd47-517f-41fd-a82f-1fadaf9fa28f" alt="Helpdesk"></a></div>
+</div>
+<div class="row">
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://www.freshideasfood.com/mpccdining/" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/mm/fresh_ideas.png?target=2ff6387d-0430-423a-9e4b-002bfdbb1f6d" alt="Fresh Ideas"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://www.mpcc.edu/cost-and-aid/index.php" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/mm/cost___aid.png?target=d811b732-7a7d-4a61-ae78-3674bb681e6f" alt="Cost and Aid"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a href="https://www.google.com/search?q=weather&amp;sca_esv=2a19a3414e05e997&amp;rlz=1C1GCEU_enUS1005US1005&amp;ei=NLWeZoWcI5DaptQP0cepOA&amp;ved=0ahUKEwiFhuaDs7uHAxUQrYkEHdFjCgcQ4dUDCA8&amp;uact=5&amp;oq=weather&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiB3dlYXRoZXIyCBAAGIAEGJIDMgsQABiABBiSAxiKBTILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMhEQLhiABBixAxjRAxiDARjHATIIEAAYgAQYsQMyERAuGIAEGLEDGNEDGIMBGMcBMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyDhAAGIAEGLEDGIMBGMkDSIkHUABY4QRwAHgBkAEAmAGEAaABxAWqAQM0LjO4AQPIAQD4AQGYAgegAosGwgIQEAAYgAQYsQMYQxiDARiKBcICChAAGIAEGEMYigXCAhEQLhiABBixAxjHARiOBRivAcICDRAAGIAEGLEDGEMYigXCAgUQABiABMICExAAGIAEGLEDGEMYgwEYyQMYigXCAhgQABiABBixAxhDGIMBGMkDGIoFGEYYgALCAiQQABiABBixAxhDGIMBGMkDGIoFGEYYgAIYlwUYjAUY3QTYAQGYAwC6BgYIARABGBOSBwMzLjSgB6BR&amp;sclient=gws-wiz-serp" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/mm/weather.png?target=4906c815-f318-486e-98d3-404cb49270d3" alt="Weather"></a></div>
+</div>
+</div>
