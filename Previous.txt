@@ -1,0 +1,433 @@
+MPCC CAMPUS WEB CHANGES DONE 8/12/2024
+
+OLD HTML AVAILABLE BELOW
+
+
+HOME HTML
+<div class="jz_div">
+<div class="container hidden-xs hidden-sm" style="padding-bottom: 25px;">
+<div class="row">
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Student tab" href="https://campus.mpcc.edu/ICS/Form_Development/"><img id="home-img" src="/ICS/icsfs/Student.png?target=8c4027f5-afc2-44a2-b388-48bd4a658d6b" alt="Student tab" width="100" height="101"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Student Life tab" href="https://campus.mpcc.edu/ICS/Form_Development/Residence_Life/"><img id="home-img" src="/ICS/icsfs/Student_Life.png?target=067ce56b-41c1-491c-b7c7-d415a11f2598" alt="Student Life tab" width="100" height="101"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Registration tab" href="https://campus.mpcc.edu/ICS/Form_Development/Registration.jnz"><img id="home-img" src="/ICS/icsfs/Register.png?target=3eccd832-8e0c-4e6d-85ca-9423a3cf9793" alt="Registration tab" width="100" height="101"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Admissions tab" href="https://campus.mpcc.edu/ICS/Admissions/"><img id="home-img" src="/ICS/icsfs/Admissions.png?target=b05ce802-3efa-41b1-9db8-19508df55d15" alt="Admissions tab" width="100" height="100"></a></div>
+</div>
+<div class="row">
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Employees tab" href="https://campus.mpcc.edu/ICS/Employee/"><img id="home-img" src="/ICS/icsfs/Employees.png?target=b40ed5b9-33d4-4aa0-bad0-b92100cc5c64" alt="Employee tab" width="100" height="101"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Faculty tab" href="https://campus.mpcc.edu/ICS/Faculty/"><img id="home-img" src="/ICS/icsfs/Faculty.png?target=3a865844-c317-4de0-bd8c-845a7f664cc9" alt="Faculty tab" width="100" height="101"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Cost and Aid area on the MPCC Website" href="https://www.mpcc.edu/cost-and-aid/index.php" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/Cost___Aid.png?target=d9455d42-9eec-4c15-a9f2-9986bf8ba5cf" alt="Cost and Aid" width="100" height="101"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Task/Forms tab" href="https://campus.mpcc.edu/ICS/Task/"><img id="home-img" src="/ICS/icsfs/Forms.png?target=13a34bd1-285c-457a-9331-96fc4f8eb40b" alt="Forms tab" width="100" height="101"></a></div>
+</div>
+<div class="row">
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the MPCC Helpdesk site" href="https://midplainscommunity.sysaidit.com/servicePortal" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/Help_Desk.png?target=86cf7aaf-fd4d-4819-889d-cf4c9ac63657" alt="Helpdesk" width="100" height="101"></a></div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Google Search for local Weather" href="https://www.google.com/search?q=weather" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/Weather.png?target=51a45775-b9d4-4d16-b41a-30eadfd7ba96" alt="Weather" width="100" height="101"></a>
+<div id="dropdown-menu" class="dropdown-content"><a title="My Schedule Link" href="https://campus.mpcc.edu/ICS/Form_Development/Registration.jnz?portlet=Student_Registration&amp;screen=StudentRegistrationPortlet_StudentScheduleView&amp;screenType=next" target="_blank" rel="noopener">My Schedule</a> <a title="My Book List Link" href="https://campus.mpcc.edu/ICS/Form_Development/Registration.jnz?portlet=Simple_Query" target="_blank" rel="noopener">My Book List</a> <a title="My Bill Link" href="https://campus.mpcc.edu/ICS/Form_Development/Student_Accounts.jnz?portlet=CASHNet_My_Account_Info" target="_blank" rel="noopener">My Bill</a></div>
+</div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><a title="Link to the Fresh Ideas website" href="https://www.freshideasfood.com/mpccdining/" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/Fresh_Ideas.png?target=96d4de2a-e099-4d99-bd60-038bfabd9106" alt="Fresh Ideas" width="100" height="101"></a>
+<div id="dropdown-menu" class="dropdown-content"><a title="North Platte North - The Wood Grille Menu Link" href="https://mpccdining.nutrislice.com/menu/the-wood-grille" target="_blank" rel="noopener">North Platte - North</a> <a title="North Platte South - Knights Court Menu Link" href="https://mpccdining.nutrislice.com/menu/knights-lounge" target="_blank" rel="noopener">North Platte - South</a> <a title="McCook - Brooks Dining Hall Menu Link" href="https://mpccdining.nutrislice.com/menu/brooks-dinning-hall" target="_blank" rel="noopener">McCook</a></div>
+</div>
+<div id="home-div" class="col-md-3" style="padding: 5px;" align="center"><img id="home-img" src="/ICS/icsfs/Athletics.png?target=3e49e4bf-a482-4139-9152-d9860d9468b7" alt="Athletics tab" width="100" height="101">
+<div id="dropdown-menu" class="dropdown-content"><a title="Link to NPCC Knights website" href="https://npccknights.com/landing/index" target="_blank" rel="noopener">NPCC Knights</a> <a title="Link to MCC Indians website" href="https://mccindians.com/landing/index" target="_blank" rel="noopener">MCC Indians</a> <a title="Link to Rodeo website" href="https://www.mpcc.edu/rodeo/index.php" target="_blank" rel="noopener">Rodeo</a></div>
+</div>
+</div>
+</div>
+<div class="container hidden-lg hidden-md">
+<div class="row">
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Student tab" href="https://campus.mpcc.edu/ICS/Form_Development/"><img id="home-img" src="/ICS/icsfs/Student.png?target=8c4027f5-afc2-44a2-b388-48bd4a658d6b" alt="Student tab" width="100" height="101"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Student Life tab" href="https://campus.mpcc.edu/ICS/Form_Development/Residence_Life/"><img id="home-img" src="/ICS/icsfs/Student_Life.png?target=067ce56b-41c1-491c-b7c7-d415a11f2598" alt="Student Life tab" width="100" height="101"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Registration tab" href="https://campus.mpcc.edu/ICS/Form_Development/Registration.jnz"><img id="home-img" src="/ICS/icsfs/Register.png?target=3eccd832-8e0c-4e6d-85ca-9423a3cf9793" alt="Registration tab" width="100" height="101"></a></div>
+</div>
+<div class="row">
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Admissions tab" href="https://campus.mpcc.edu/ICS/Admissions/"><img id="home-img" style="padding-bottom: 2px;" src="/ICS/icsfs/Admissions.png?target=b05ce802-3efa-41b1-9db8-19508df55d15" alt="Admissions tab" width="100" height="102"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Task/Forms tab" href="https://campus.mpcc.edu/ICS/Task/"><img id="home-img" style="padding-bottom: 1px;" src="/ICS/icsfs/Forms.png?target=13a34bd1-285c-457a-9331-96fc4f8eb40b" alt="Forms tab" width="100" height="102"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the MPCC Helpdesk site" href="https://midplainscommunity.sysaidit.com/servicePortal" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/Help_Desk.png?target=86cf7aaf-fd4d-4819-889d-cf4c9ac63657" alt="Helpdesk" width="100" height="101"></a></div>
+</div>
+<div class="row">
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Employees tab" href="https://campus.mpcc.edu/ICS/Employee/"><img id="home-img" src="/ICS/icsfs/Employees.png?target=b40ed5b9-33d4-4aa0-bad0-b92100cc5c64" alt="Employee tab" width="100" height="101"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Faculty tab" href="https://campus.mpcc.edu/ICS/Faculty/"><img id="home-img" src="/ICS/icsfs/Faculty.png?target=3a865844-c317-4de0-bd8c-845a7f664cc9" alt="Faculty tab" width="100" height="101"></a></div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Cost and Aid area on the MPCC Website" href="https://www.mpcc.edu/cost-and-aid/index.php" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/Cost___Aid.png?target=d9455d42-9eec-4c15-a9f2-9986bf8ba5cf" alt="Cost and Aid" width="100" height="101"></a></div>
+</div>
+<div class="row">
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Google Search for local Weather" href="https://www.google.com/search?q=weather" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/Weather.png?target=51a45775-b9d4-4d16-b41a-30eadfd7ba96" alt="Weather" width="100" height="101"></a>
+<div id="dropdown-menu" class="dropdown-content-small"><a title="My Schedule Link" href="https://campus.mpcc.edu/ICS/Form_Development/Registration.jnz?portlet=Student_Registration&amp;screen=StudentRegistrationPortlet_StudentScheduleView&amp;screenType=next" target="_blank" rel="noopener">My Schedule</a> <a title="My Book List Link" href="https://campus.mpcc.edu/ICS/Form_Development/Registration.jnz?portlet=Simple_Query" target="_blank" rel="noopener">My Book List</a> <a title="My Bill Link" href="https://campus.mpcc.edu/ICS/Form_Development/Student_Accounts.jnz?portlet=CASHNet_My_Account_Info" target="_blank" rel="noopener">My Bill</a></div>
+</div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><a title="Link to the Fresh Ideas website" href="https://www.freshideasfood.com/mpccdining/" target="_blank" rel="noopener"><img id="home-img" src="/ICS/icsfs/Fresh_Ideas.png?target=96d4de2a-e099-4d99-bd60-038bfabd9106" alt="Fresh Ideas" width="100" height="101"></a>
+<div id="dropdown-menu" class="dropdown-content-small"><a title="North Platte North - The Wood Grille Menu Link" href="https://mpccdining.nutrislice.com/menu/the-wood-grille" target="_blank" rel="noopener">North Platte - North</a> <a title="North Platte South - Knights Court Menu Link" href="https://mpccdining.nutrislice.com/menu/knights-lounge" target="_blank" rel="noopener">North Platte - South</a> <a title="McCook - Brooks Dining Hall Menu Link" href="https://mpccdining.nutrislice.com/menu/brooks-dinning-hall" target="_blank" rel="noopener">McCook</a></div>
+</div>
+<div id="home-div-small" class="col-xs-4" style="padding: 5px;" align="center"><img id="home-img" style="padding-bottom: 1px;" src="/ICS/icsfs/Athletics.png?target=3e49e4bf-a482-4139-9152-d9860d9468b7" alt="Athletics tab" width="100" height="102">
+<div id="dropdown-menu" class="dropdown-content-small"><a href="https://npccknights.com/landing/index" target="_blank" rel="noopener">NPCC Knights</a> <a href="https://mccindians.com/landing/index" target="_blank" rel="noopener">MCC Indians</a> <a href="https://www.mpcc.edu/rodeo/index.php" target="_blank" rel="noopener">Rodeo</a></div>
+</div>
+</div>
+</div>
+</div>
+
+STUDENT
+
+<div class="jz_div">
+<ul style="list-style-type: none; margin-left: 30px;">
+<li style="font-size: 16px;">
+<p><strong><span style="font-size: 12pt;">Registration</span></strong></p>
+<p><span style="font-size: 12pt;">Spring 2025 registration opens for returning students on Monday, October 7. New students may register beginning Monday, October 14.</span></p>
+<p><span style="font-size: 12pt;">Schedule your advising appointment today by calling (308)535-3701 in North Platte, (308)345-8100 in McCook, or e-mail <a href="mailto:advising@mpcc.edu">advising@mpcc.edu</a>. Add/drop and withdrawal deadlines can be found at the bottom of this page.</span></p>
+<p><span style="font-size: 12pt;">Are you close to completing your degree, diploma, or certificate? If so, please submit your Intent to Graduate by going to the Student page, select Steps to Graduate, and then click on the "Intent to Graduate" link to get started.</span></p>
+</li>
+</ul>
+<ul style="list-style-type: none; margin-left: 30px;">
+<li style="font-size: 16px;">
+<p><strong><span style="font-size: 12pt;">Bookstore Change</span></strong></p>
+<p><span style="font-size: 12pt;">For more information about MPCC's new bookstore, go to <a href="https://www.mpcc.edu/bibliu.php" target="_blank" rel="noopener">www.mpcc.edu/bibliu.php</a>.</span></p>
+</li>
+</ul>
+<ul style="list-style-type: none; margin-left: 30px;">
+<li style="font-size: 16px;">
+<p><strong><span style="font-size: 12pt;">CampusWeb Theme</span></strong></p>
+<p><span style="font-size: 12pt;">CampusWeb (JICS) will continue to be finetuned as the website "look and feel" changes to a new theme designed by recent MPCC graduate Juan Zanguitu.</span></p>
+<p><span style="font-size: 12pt;">If you have any questions about the changes or find broken links, etc., please reach out to <a href="mailto:JICSTeam@mpcc.edu">JICSTeam@mpcc.edu</a>.&nbsp;</span><span style="font-size: 12pt;">We appreciate your patience during the website renovation.</span></p>
+</li>
+</ul>
+</div>
+
+STUDENT -> FINANCIAL AID
+<div class="jz_div">
+<ul style="list-style-type: none; margin-left: 30px;">
+<li style="margin-bottom: 5px; font-size: 16px;">
+<p>Mid-Plains Community College offers several student worker opportunities. Students who are eligible for and have indicated an interest in Federal Work Study will be given preference. For students not eligible for Federal Work Study, positions may be funded through the institution's Student Clerical budget; however, the Student Clerical budget is very limited. Federal Work Study is also limited. Placement in all positions is subject to availability of funds.</p>
+<p>You are able to apply for up to three positions at once in order of priority. Check out the listings below and keep the information on hand to complete the <a href="https://app.perfectforms.com/player.htm?f=wQ7GgAkI" target="_blank" rel="noopener">2024-2025 Position Application Available Here</a>. If you have questions, please contact <a href="mailto:finaid@mpcc.edu">finaid@mpcc.edu.</a></p>
+</li>
+</ul>
+<div class="button-container" style="text-align: center; align-items: center;"><a class="fullWidthButton" style="box-sizing: border-box; text-align: center; align-items: center;" href="https://app.perfectforms.com/player.htm?f=wQ7GgAkI" target="_blank" rel="noopener">Position Application</a></div>
+<p><span style="font-size: 12pt;">**Please note that ALL job positions are now $13.50/hour for 2024-2025.</span></p>
+<hr>
+<h3 class="port_title">McCook Campus Positions:</h3>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/advising_aide_-_mccook_campus_24-25.pdf?target=6f81667c-81fd-44bb-9d78-abcbd102f4fa" target="_blank" rel="noopener"><strong>Advising Aide - McCook Campus </strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/athletic_director_assistant_-_mccook_campus_24-25.pdf?target=3ac68cd4-81a9-4a7b-980a-7620ca5783a6" target="_blank" rel="noopener"><strong>Athletic Director Assistant - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/baseball_assistant_-_mccook_campus_24-25.pdf?target=caf32f21-1b72-4da2-82b9-ebeb4ddafe64" target="_blank" rel="noopener"><strong>Baseball Aide - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/business_faculty_aide_-_mccook_campus_24-25.pdf?target=d4e21b85-ccfe-49ba-b061-dcd158e28031" target="_blank" rel="noopener"><strong>Business Faculty Aide - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/child_development_center_-_mccook_campus.pdf?target=255740a1-c70a-4d5b-9840-2d7958ed86b1" target="_blank" rel="noopener"><strong>Child Development Center Student Worker</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/fitness_center_aide_-_mccook_campus_24-25.pdf?target=63132446-8e8a-411f-a5b2-dac3c6e5376a" target="_blank" rel="noopener"><strong>Fitness Center Aide - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/game_management_student_worker-_mccook_campus_24-25.pdf?target=5c99999e-1996-4017-90c2-b11170239ba3" target="_blank" rel="noopener"><strong>Game Management/Event Center Student Aide - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/learning_commons_aide_-_mccook_campus_24-25.pdf?target=a13f762a-bbc8-4932-b231-a76737adcedf" target="_blank" rel="noopener"><strong>Learning Commons Aide - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/learning_commons_event-martketing_assistant_-_mccook_campus_24-25.pdf?target=46e960d6-c705-4b24-9a30-d18bfb23def6" target="_blank" rel="noopener"><strong>Learning Commons Event-Marketing Assistant - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/residence_life_aide_-_mccook_campus_24-25.pdf?target=14dcbd8b-2878-4e22-b40a-8028853b6202" target="_blank" rel="noopener"><strong>Residence Life Aide - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/softball_assistant_-_mccook_campus_24-25.pdf?target=fbf2caab-785e-4273-b3d4-a5401b05f93d" target="_blank" rel="noopener"><strong>Softball Assistant - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/student_aide_to_the_volleyball_coach_-_mccook_campus_24-25.pdf?target=e8f17e03-f593-4fbd-ab48-b132f4891bb1" target="_blank" rel="noopener"><strong>Student Aide to the Volleyball Coach - McCook Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/woman%27s_basketball_assistant_-_mccook_campus_24-25.pdf?target=5bf5ea0d-d3cd-496d-bc85-a37ec119dbfb" target="_blank" rel="noopener"><strong>Women's Basketball Assistant - McCook Campus&nbsp;</strong></a></div>
+<p>&nbsp;</p>
+<h3 class="port_title">North Platte South Campus Positions</h3>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/biology_department_aide_-_north_platte_south_campus_24-25.pdf?target=9c474d52-d826-4023-90b5-caf142335832" target="_blank" rel="noopener"><strong>Biology Department Aide - North Platte South Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/custodial_-_north_platte_south_campus_24-25.pdf?target=bbfa6711-175a-4bba-af39-6ef487e5ee54" target="_blank" rel="noopener"><strong>Custodial - North Platte South Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/dental_assisting_program_aide_-_north_platte_south_campus_24-25.pdf?target=f80c78b6-ff2b-4c45-87c5-6498165e8a0d" target="_blank" rel="noopener"><strong>Dental Assisting Program Aide - North Platte South Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/events_management_-_north_platte_south_campus_24-25.pdf?target=fc81de21-6965-4304-868a-db4735f139c3" target="_blank" rel="noopener"><strong>Events Management - North Platte South Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/fitness_center_aide_-_north_platte_south_campus_24-25.pdf?target=09addb57-b8b2-45ed-a615-17fa4a17fa5d" target="_blank" rel="noopener"><strong>Fitness Center Aide - North Platte South Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/music_department_aide_-_north_platte_south_campus_24-25.pdf?target=e0963809-20bc-4c28-b323-b58b5df0fd83" target="_blank" rel="noopener"><strong>Music Department Aide - North Platte South Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/psychology_department_aid_-_north_platte_south_campus.pdf?target=fb2164ca-acab-40e9-8cec-90ceb36f424c" target="_blank" rel="noopener"><strong>Psychology Department Aide - North Platte South Campus</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/physics_lab_aide_-_north_platte_south_campus_24-25.pdf?target=01294553-d7e1-41ba-946f-b9727be5bc93" target="_blank" rel="noopener"><strong>Physics Lab Aide - North Platte South Campus</strong></a></div>
+<p>&nbsp;</p>
+<h3 class="port_title">North Platte North Campus Positions</h3>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/technology_student_aide_-_north_platte_north_campus.pdf?target=1f1d6870-1be3-474a-9745-d042dc373424" target="_blank" rel="noopener"><strong>Technology Student Aide - North Platte North Campus</strong></a></div>
+<p>&nbsp;</p>
+</div>
+
+ADMISSIONS
+
+<div style="font-size: 18pt;" align="center"><img src="/ICS/icsfs/mm/mid-plains_cc_logo.jpg?target=84529008-375f-4e3f-a557-28bf1f6a48c6" alt="" width="198" height="192"></div>
+<div style="font-size: 18pt;" align="center"><br>Welcome to the MPCC Online Application!</div>
+<div style="font-size: 18pt;" align="center">&nbsp;</div>
+<p><a id="dynamicApplyNowButton" class="button-link" title="Link to the MPCC Admissions Application" href="https://campus.mpcc.edu/ICS/Admissions/Apply_Online.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=3ca1f262-70bc-4e22-8578-aa12a1d628ac">Click Here to Apply Now</a></p>
+<div class="jz_div">
+<ul style="list-style-type: none; margin-left: 30px;">
+<li style="font-size: 16px;">
+<p><span style="font-size: 14pt;"><strong>Additional Steps after you complete your application</strong></span></p>
+</li>
+</ul>
+<h3 class="port_title">Dual Credit/Early Entry High School Student Forms:</h3>
+<div class="infoButtonContainer"><a class="infoButton" href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=e15b10dd-a92c-4db1-8ee7-b58bf28d38d9&amp;env=na3-eu1&amp;acct=0bfce51b-8675-4b39-b628-8b13a8fbf172&amp;v=2" target="_blank" rel="noopener">Dual Credit Parent Signature Form</a> <button class="infoButtonSmall" type="button">i</button>
+<p class="infoButtonInfo">Required for online registration</p>
+</div>
+<div class="infoButtonContainer"><a class="infoButton" href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=27d7e1be-2881-461a-8b1f-1523c3793e12&amp;env=na3-eu1&amp;acct=0bfce51b-8675-4b39-b628-8b13a8fbf172&amp;v=2" target="_blank" rel="noopener">FERPA Release Form</a> <button class="infoButtonSmall" type="button">i</button>
+<p class="infoButtonInfo">Tell us who we can share your information with.</p>
+</div>
+<div class="infoButtonContainer"><a class="infoButton" href="/ICS/icsfs/mm/registration_and_reg_change_(rev_sep_2024).pdf?target=f8837048-0223-4f9f-a7a7-222a0781ba1c" target="_blank" rel="noopener">Printable Registration Form</a> <button class="infoButtonSmall" type="button">i</button>
+<p class="infoButtonInfo">Click here to download a printable registration form.</p>
+</div>
+<div class="infoButtonContainer"><a class="infoButton" href="https://powerforms.docusign.net/eb1d3c44-bb68-46ca-b19a-c019e4273e0b?env=na3&amp;acct=0bfce51b-8675-4b39-b628-8b13a8fbf172&amp;accountId=0bfce51b-8675-4b39-b628-8b13a8fbf172" target="_blank" rel="noopener">Digital Dual Credit Registration Form</a> <button class="infoButtonSmall" type="button">i</button>
+<p class="infoButtonInfo">Submit your registration through a secure DocuSign link</p>
+</div>
+<h3 class="port_title">Current or Previous MPCC Students:</h3>
+<div class="infoButtonContainer"><a class="infoButtonGold" href="https://campus.mpcc.edu/ICS/Admissions/Apply_Online.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=6e1f1271-3fc6-47c4-97e0-ca1490ab0a7d" target="_blank" rel="noopener">Update Enrollment Form</a> <button class="infoButtonSmall" type="button">i</button>
+<p class="infoButtonInfo">If you are a current or previous student with MPCC and would like to update your enrollment status (e.g. you are graduating high school and want to attend after graduation or you were non-degree and are now wanting to complete a degree program), you may complete this streamlined form.</p>
+</div>
+<h3 class="port_title">Have you moved or changed your contact information?</h3>
+<div class="infoButtonContainer"><a class="infoButton" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=b33b2aa4-36fd-4e88-8c34-64fcc147a39f" target="_blank" rel="noopener">Personal Information Update</a> <button class="infoButtonSmall" type="button">i</button>
+<p class="infoButtonInfo">If you have previously completed a MPCC application and you have had a change in your contact or biograph information (e.g. you got married, had a legal name change, moved, changed phone numbers/emails, etc), you may complete this quick form to update this information electronically.</p>
+</div>
+<p>
+<script type="text/javascript"> 
+document.querySelector('.infoButtonSmall').addEventListener('click', function(event) { 
+    event.preventDefault(); 
+}); 
+});</script>
+</p>
+<hr></div>
+
+
+ADMISSIONS 2ND PORTLET
+
+<div class="jz_div">
+<h3 class="port_title"><span style="font-size: 14pt;">Required</span></h3>
+<ul style="list-style-type: none; margin-left: 30px;">
+<li style="font-size: 12pt;">
+<p><span style="font-size: 12pt;">Fill out Admissions Application</span></p>
+<p><span style="font-size: 12pt;">1- If under 19 years old - &nbsp;<a href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=9b7cf6e6-b500-4d1b-9022-c2cd2051dc8a&amp;env=na3&amp;acct=0bfce51b-8675-4b39-b628-8b13a8fbf172&amp;v=2" target="_blank" rel="noopener">complete the parent signature form</a></span><br><span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp;*please only submit this form 1 time as a MPCC student</span></p>
+<p><span style="font-size: 12pt;">2- Provide ACT, Accuplacer, and/or SAT placement scores - <strong>current within 3 years</strong></span></p>
+<p><span style="font-size: 12pt;">3- Provide&nbsp;<span style="text-decoration: underline;">official, final</span>&nbsp;high school / GED transcript - (after you have graduated)</span></p>
+<p><span style="background-color: yellow; font-size: 12pt;"><strong>Please Note: Financial Aid requires your official, final transcript to be on file in order to receive aid</strong></span></p>
+<p><span style="font-size: 12pt;">4- Provide official college and/or military&nbsp; transcript(s), if applicable</span></p>
+</li>
+</ul>
+<p style="margin-left: 40px;"><span style="background-color: yellow; font-size: 12pt;"><strong>*You will <span style="text-decoration: underline;">not</span> be allowed to&nbsp;register for&nbsp;a second semester&nbsp;if these items are not received</strong></span></p>
+<p>&nbsp;</p>
+<h3 class="port_title"><span style="font-size: 14pt;">Recommended</span></h3>
+<ul style="list-style-type: none; margin-left: 30px;">
+<li style="font-size: 12pt;">
+<p><span style="font-size: 12pt;">Want to learn more about Financial Aid:&nbsp;&nbsp;<a href="http://www.mpcc.edu/cost-and-aid/financial-aid/financial-aid.php" target="_blank" rel="noopener"><span style="text-decoration: underline;">General Financial Aid information</span></a></span></p>
+<p><span style="font-size: 12pt;">If you are planning to apply for financial aid:&nbsp;&nbsp;<span style="text-decoration: underline;"><a href="https://studentaid.gov/" target="_blank" rel="noopener">Complete the&nbsp;FAFSA </a></span></span></p>
+<p><span style="font-size: 12pt;">MPCC Scholarship opportunities and complete the Scholarship Applications:&nbsp;&nbsp;<span style="text-decoration: underline;"><a href="https://mpcc.awardspring.com/" target="_blank" rel="noopener noreferrer">MPCC Scholarship application</a></span></span></p>
+</li>
+</ul>
+</div>
+
+EMPLOYEE FORMS
+
+<div class="jz_div">
+<div class="button-container"><a class="fullWidthButton" title="Bid Request" href="https://perfectforms.mpcc.edu/PerfectFormsSSO/player.htm?f=n1HFggAl" target="_blank" rel="noopener"><strong>Bid Request</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" title="Change of Address" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=b33b2aa4-36fd-4e88-8c34-64fcc147a39f" target="_blank" rel="noopener"><strong>Change of Address</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Deposit Confirmation" href="https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=2b2600c4-7ca7-41a4-b4df-fb911ba88486&amp;env=na3&amp;acct=0bfce51b-8675-4b39-b628-8b13a8fbf172&amp;v=2" target="_blank" rel="noopener"><strong>Deposit Confirmation</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Employee_Forms_Home/Employee_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=e5db3dad-e2c8-4782-8f3a-6952d1ba454c" target="_blank" rel="noopener"><strong>Employee Cap and Gown Order</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Employee_Forms_Home/Employee_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=d3e6afff-5ccf-4061-865b-6600e2e85483" target="_blank" rel="noopener"><strong>FormFlow Proposal Approval Process</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=8354129a-fa6d-4868-a66d-81a9261ab23f" target="_blank" rel="noopener"><strong>Honors Convocation Nomination Form</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Employee_Forms_Home/Employee_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=95921569-f547-4623-a035-e0ef611cf601" target="_blank" rel="noopener"><strong>J1Web Communications Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Employee_Forms_Home/Employee_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=e7539830-8774-49f0-8900-6faafa89182d" target="_blank" rel="noopener"><strong>Jenzabar Upgrade Testing Feedback</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Professional Development " href="https://perfectforms.mpcc.edu/PerfectFormsSSO/player.htm?f=KzfkgAAo" target="_blank" rel="noopener"><strong> Professional Development </strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Requisition" href="https://campus.mpcc.edu/ICS/Employee/Forms/Requisition.jnz" target="_blank" rel="noopener"><strong>Requisition</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Room Request" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=9b3060f9-ef3c-4c7f-b892-bce69554286c" target="_blank" rel="noopener"><strong>Room Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Travel Form" href="https://perfectforms.mpcc.edu/PerfectFormsSSO/player.htm?f=gD6FgAoE" target="_blank" rel="noopener"><strong>Travel Form</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Tuition Fee" href="https://perfectforms.mpcc.edu/PerfectFormsSSO/player.htm?f=7XBlAgAH" target="_blank" rel="noopener"><strong>Tuition Fee </strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Tuition Waiver" href="https://perfectforms.mpcc.edu/PerfectFormsSSO/player.htm?f=vqFFggMk" target="_blank" rel="noopener"><strong>Tuition Waiver </strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Vehicle Request" href="https://campus.mpcc.edu/ICS/Employee/Forms/Vehicle_Request.jnz" target="_blank" rel="noopener"><strong>Vehicle Request</strong></a></div>
+</div>
+
+FACULTY FORMS
+
+<div class="jz_div">
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Visitor/Current_Schedules.jnz" target="_blank" rel="noopener"><strong>Current College Schedules</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Final Exams Schedule" href="https://mpccedu.sharepoint.com/Faculty/Forms/AllItems.aspx?id=%2FFaculty%2FCalendars%2FFinals%20Schedule%2FFinals%20Schedule%2Epdf&amp;parent=%2FFaculty%2FCalendars%2FFinals%20Schedule" target="_blank" rel="noopener"><strong>Final Exams Schedule</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="How to view your class lists" href="/ICS/icsfs/mm/class_lists_for_campusweb_help.pdf?target=90ce9742-dfde-44ab-af85-d9edf4b89948" target="_blank" rel="noopener"><strong>How to view your class list (pdf)</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="How to submit final grades" href="/ICS/icsfs/mm/final_grades_and_last_date_of_attendance.pdf?target=a86782f8-0d5d-4526-ada1-0703dc43e5ac" target="_blank" rel="noopener"><strong>How to submit final grades (pdf)</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" title="Learning Commons Forms and Instructions for Faculty" href="https://campus.mpcc.edu/ICS/Faculty/Learning_Commons/" target="_blank" rel="noopener"><strong>Learning Commons Forms and Instructions for Faculty</strong></a></div>
+<h3 class="port_title">Forms</h3>
+<div class="button-container"><a class="fullWidthButton" title="Link to Academic Integrity Violation Form" href="https://campus.mpcc.edu/ICS/Forms/Faculty_Forms_Home/Faculty_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=df86cf9a-d8be-4f02-b9a3-17715e03431c" target="_blank" rel="noopener"><strong>Academic Integrity Violation</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to Course Reserve Request Form" href="https://campus.mpcc.edu/ICS/Forms/Faculty_Forms_Home/Faculty_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;screenType=change&amp;form=b8abac16-0371-4fd8-a963-3ad588ddea86" target="_blank" rel="noopener"><strong>Course Reserve Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Course Substitution Request" href="https://app.perfectforms.com/player.htm?f=VM1lgAMH" target="_blank" rel="noopener"><strong>Course Substitution Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Faculty Material Request" href="https://campus.mpcc.edu/ICS/Forms/Faculty_Forms_Home/Faculty_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;screenType=change&amp;form=e7766b2a-8712-4a0d-97a8-164f00aa71a9" target="_blank" rel="noopener"><strong>Faculty Material Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Grade Change Request" href="https://app.perfectforms.com/player.htm?f=sG4FAg8F" target="_blank" rel="noopener"><strong>Grade Change Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Incomplete Grade Request" href="https://app.perfectforms.com/player.htm?f=gD4FgAgE" target="_blank" rel="noopener"><strong>Incomplete Grade Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Interlibrary Loan Request" href="https://libsearch.mpcc.edu/discovery/login?vid=01MCC_INST:MCC" target="_blank" rel="noopener"><strong>Interlibrary Loan Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Student Services Request" href="https://campus.mpcc.edu/ICS/Forms/Faculty_Forms_Home/Faculty_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;screenType=change&amp;form=479038d7-e5b9-442f-bcde-3709040fea65" target="_blank" rel="noopener"><strong>Student Services Request (Previously Learning Commons Request Form)</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Program Change form" href=" https://campus.mpcc.edu/ICS/Forms/Faculty_Forms_Home/Faculty_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=5f5c9211-5df8-48c1-a47e-606b14228548 " target="_blank" rel="noopener"><strong>Program Change Form</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Traditional Registration/Reg Change form" href="/ICS/icsfs/mm/registration_and_reg_change_(rev_oct_2023).pdf?target=1d098077-ec8f-491c-9f23-947945f2ff90" target="_blank" rel="noopener"><strong>Registration/Reg Change Form (pdf)</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Request to Move Student(s) to a Different Course Section" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=b3a87ed6-4c36-42cb-8c55-f1eddfee4c12" target="_blank" rel="noopener"><strong>Request to Move Student(s) to a Different Course Section</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Test Proctoring Request" href="https://campus.mpcc.edu/ICS/Forms/Faculty_Forms_Home/Faculty_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;screenType=change&amp;form=5dd8adb3-cb0d-44b2-942e-6c767ba2186e" target="_blank" rel="noopener"><strong>Test Proctoring Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Waitlist_to_Current_Athorization_Form" href="/ICS/icsfs/mm/waitlist_to_current_authorization.pdf?target=e91452bc-80c8-4b9d-8a3e-0dcd78c35ebc" target="_blank" rel="noopener"><strong>Waitlist to Current Authorization</strong></a></div>
+</div>
+
+FORMS
+
+<div class="jz_div">
+<div class="button-container"><a class="fullWidthButton" title="Go to the Learning Commons Forms" href="https://campus.mpcc.edu/ICS/Form_Development/Learning_Commons/"><strong>Learning Commons Forms</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Faculty Learning Commons page" href="https://campus.mpcc.edu/ICS/Faculty/Learning_Commons/"><strong>Faculty Learning Commons Forms</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Go to Employee Forms" href="https://campus.mpcc.edu/ICS/Forms/Employee_Forms/"><strong>Employee Forms</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" title="Go to Student forms" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms/"><strong>Student Forms</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Go to Faculty forms" href="https://campus.mpcc.edu/ICS/Forms/Faculty_Forms/"><strong>Faculty Forms</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Go to Public forms" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms/"><strong>Public Forms</strong></a></div>
+</div>
+
+STUDENT FORMS
+
+<div class="jz_div">
+<div class="button-container"><a class="fullWidthButton" title="Link to the Ambassador Application form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=a46a5d78-01c6-492d-bd98-752dea4f83f9" target="_blank" rel="noopener"><strong>Ambassador Application</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Appeal for Exception to Add, Drop, or Withdrawal Deadlines form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;screenType=change&amp;form=58ef04d8-505f-422b-8ff5-cd06dd97914f" target="_blank" rel="noopener"><strong>Appeal for Exception to Add, Drop, or Withdrawal Deadlines</strong></a></div>
+<div class="button-container"><a id="changeResidencyButton" class="fullWidthButton" href="https://campus.mpcc.edu/ICS/icsfs/mm/change_residency_status_request.pdf?target=9560b7bd-2366-415b-a130-c9b724a16652" target="_blank" rel="noopener"><strong>Change of Residency Status Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="FERPA Release" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;screenType=change&amp;form=d1b32439-2630-4efd-b447-e71f8583939d" target="_blank" rel="noopener"><strong>FERPA - Permission to Release Non-Directory Information</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the FERPA Restriction for Directory Information form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=d74d8996-73ea-4605-8cf9-135aec886ffc" target="_blank" rel="noopener"><strong>FERPA - Restriction for Directory Information</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Honors Convocation Nomination form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=8354129a-fa6d-4868-a66d-81a9261ab23f" target="_blank" rel="noopener"><strong>Honors Convocation Nomination Form</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Homecoming Royalty Voting Ballot" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=d7923bb6-ea1c-4119-ba9b-d4665f13bb17" target="_blank" rel="noopener"><strong>Homecoming Royalty Voting Ballot</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://libsearch.mpcc.edu/discovery/blankIll?vid=01MCC_INST:MCC" target="_blank" rel="noopener"><strong>Interlibrary Loan Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the MPCC Commencement Speaker Entry Form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=85db41b5-f237-4060-bef5-4c653fa887d6" target="_blank" rel="noopener"><strong>MPCC Commencement Speaker Entry Form</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the My MPCC Mobile App Survey form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=c663d341-6988-4a36-b22e-959342e49993" target="_blank" rel="noopener"><strong>My MPCC Mobile App Survey form</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Nebraska Career Scholarship Statement of Commitment form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=7c1a7322-46ca-4b19-835e-56d2e8cf7aaa" target="_blank" rel="noopener"><strong>Nebraska Career Scholarship Statement of Commitment form</strong></a></div>
+<div class="button-container"><a id="personalInfoUpdateButton" class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=b33b2aa4-36fd-4e88-8c34-64fcc147a39f" target="_blank" rel="noopener"><strong>Personal Information Update Form</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Plans For Next Semester" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=3cc52b81-c197-4261-b4f9-fb0a864a9890" target="_blank" rel="noopener"><strong>Plans For Next Semester</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the RA Application form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=efb3759a-2fdd-48bd-bb2e-ee36417f6ccf" target="_blank" rel="noopener"><strong>RA Application</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Student Agreement form" href="/ICS/icsfs/mm/registration_and_reg_change_(rev_sep_2024).pdf?target=5b430ce0-d404-4ef5-958f-42a3d4023812" target="_blank" rel="noopener"><strong>Registration/Registration Change Form</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Learning_Commons/Learning_Commons_Form_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=b24f6d09-a82c-4bcc-9720-0ece0df2701b" target="_blank" rel="noopener"><strong>Request to be a Tutor</strong></a></div>
+<div class="button-container"><a id="ferpaDirectoryInfoButton" class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=d74d8996-73ea-4605-8cf9-135aec886ffc" target="_blank" rel="noopener"><strong>Request to Prevent Disclosure of Directory Information</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Student Agreement form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=cf3194eb-93c5-4ac8-97af-cd54e12e55d2" target="_blank" rel="noopener"><strong>Student Agreement Form</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Student Housing Break Request" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=24168166-ee92-4392-93a6-20308c61f799" target="_blank" rel="noopener"><strong>Student Housing Break Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the student life road trip sign up form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=c6e75962-ccec-4782-bdd5-afbc6240caba" target="_blank" rel="noopener"><strong>Student Life Road Trip Sign-up</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Student Org Meeting Minutes form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=cb5d3f35-6af8-40f6-ab6e-ffb13dcfada7" target="_blank" rel="noopener"><strong>Student Org Meeting Minutes</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Student Org Membership form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=3df4dde5-8ae0-46d0-a7bb-fa4f78395785" target="_blank" rel="noopener"><strong>Student Org Membership</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Student Senate Election form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=fc6ca82c-ab19-456d-9484-25c14308d078" target="_blank" rel="noopener"><strong>Student Senate Election</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Learning_Commons/Learning_Commons_Form_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;screenType=change&amp;form=a7d69506-eef7-433f-b1b6-1b47f4047b94"><strong>Success Coaching Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Forms/Learning_Commons/Learning_Commons_Form_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=65d783ce-1882-448f-94dd-ff707e0ee591" target="_blank" rel="noopener"><strong>Tutor Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Vehicle Registration form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=38c1628b-117a-4596-8bee-3c56034f1da1" target="_blank" rel="noopener"><strong>Vehicle Registration</strong></a></div>
+<div class="button-container"><a id="personalInfoUpdateButton" class="fullWidthButton" href="/ICS/icsfs/mm/waitlist_to_current_authorization.pdf?target=1af7ed2f-2a52-4d8d-9968-09b20c926de5" target="_blank" rel="noopener"><strong>Waitlist to Current Authorization</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Walsh Brady 50% Tuition and Fees Grant Application form" href="https://campus.mpcc.edu/ICS/Forms/Student_Forms_Home/Student_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=0c515701-6fb2-4c78-9a3a-556e40767437" target="_blank" rel="noopener"><strong>Walsh Brady 50% Tuition and Fees Grant Application</strong></a></div>
+</div>
+
+PUBLIC FORMS
+
+<div class="jz_div">
+<div class="button-container"><a class="fullWidthButton" title="Link to the Event Evaluation form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=532dfd1a-6116-4420-b2d7-7810d7733a5d" target="_blank" rel="noopener"><strong>Best of the West Entries</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Event Evaluation form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=10a0d7e0-7a0f-4cd7-9e0a-4e33f6c278bb" target="_blank" rel="noopener"><strong>Event Evaluation</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Event Request form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=abe8639e-a94d-4061-9b61-b6d3ced23c98" target="_blank" rel="noopener">Event Request</a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the ID Number non-student request form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=df245505-b58a-4b9e-b925-cc85a061f6d7" target="_blank" rel="noopener"><strong>ID Number (Non-Student) Request</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the J1 Web Workflow request form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=8ffc5db1-07f0-430e-97f3-ba95f54e5452" target="_blank" rel="noopener"><strong>J1 Web Workflow Request</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the My MPCC Mobile App Survey form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=c663d341-6988-4a36-b22e-959342e49993" target="_blank" rel="noopener"><strong>My MPCC Mobile App Survey</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the personal information update form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;screenType=change&amp;form=b33b2aa4-36fd-4e88-8c34-64fcc147a39f" target="_blank" rel="noopener"><strong>Personal Information Update</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the Room Request form" href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=9b3060f9-ef3c-4c7f-b892-bce69554286c" target="_blank" rel="noopener"><strong>Room Request</strong></a></div>
+</div>
+
+INTERNAL
+
+<div class="jz_div">
+<div class="button-container"><a class="fullWidthButton" title="Communications" href="https://campus.mpcc.edu/ICS/Internal/Communications/"><strong>Communications</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Community Visits" href="https://campus.mpcc.edu/ICS/Internal/Community_Visits/"><strong>Community Visits</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Course Eval Admin" href="https://campus.mpcc.edu/ICS/Internal/Course_Eval_Admin/"><strong>Course Eval Admin</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" title="Custom Reports" href="https://campus.mpcc.edu/ICS/Internal/Custom_Reports/"><strong>Custom Reports</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Data" href="https://campus.mpcc.edu/ICS/Internal/Data/"><strong>Data</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Events" href="https://campus.mpcc.edu/ICS/Internal/McCook_-_Events/Welcome.jnz"><strong>Events</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Legacy Course Search" href="https://campus.mpcc.edu/ICS/Internal/Legacy_Course_Search/"><strong>Legacy Course Search</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" title="Link to the JICS Team page" href="https://campus.mpcc.edu/ICS/Internal/JICS_Team/"><strong>JICS Team</strong></a></div>
+</div>
+
+COMMUNITY VISITS
+
+<div class="jz_div">
+<ul style="list-style-type: none; margin-left: 30px;">
+<li style="font-size: 16px;">
+<p>To retrieve Community Visit Summaries: Select a regional ID and date range for the time frame you are interested in reviewing below, then select &ldquo;Generate Report&rdquo;.</p>
+</li>
+</ul>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/community_visit_region_identification.pdf?target=fe4fabff-a0aa-4de9-ae5f-c775a2ad637c"><strong>Unsure which towns are included in each region? Click here</strong></a></div>
+<div class="button-container">&nbsp;</div>
+<div class="button-container"><a class="fullWidthButton" href="/ICS/icsfs/mm/record_a_community_visit_in_jenzabar.pdf?target=d30296e6-81d3-4cc2-be29-815600c3fd70"><strong>Ready to record a community visit in Jenzabar? Click here</strong></a></div>
+<div class="button-container">&nbsp;</div>
+</div>
+
+DATA
+
+<div class="jz_div">
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Internal/Data/AdvisingAcademics/"><strong>Advising/Academics</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Internal/Data/Registration/Registration_Data.jnz"><strong>Registration</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Internal/Data/Student_Life_Data/"><strong>Student Life</strong> </a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Internal/Data/Communications/"><strong>Communications</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Internal/Data/Employee/"><strong>Employee</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Internal/Data/Events/"><strong>Events</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/"><strong>Facilities</strong></a></div>
+<div class="button-container"><a class="fullWidthButton" href="https://campus.mpcc.edu/ICS/Internal/Data/Core/Core_Data.jnz"><strong>Core</strong></a></div>
+</div>
+
+FACILITIES
+
+<p><strong><span xml:lang="EN-US" data-contrast="auto"><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="33" height="44"></span></strong> <a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/CampusLocations.jnz">Core_Facilities_CampusLocations</a></p>
+<p><strong><span xml:lang="EN-US" data-contrast="auto"><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="33" height="44"></span></strong> <a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/CreatePlace.jnz">Core_Facilities_CreatePlace</a></p>
+<p><span style="font-size: 11pt; line-height: 107%; font-family: Calibri, sans-serif;"><strong><span xml:lang="EN-US" data-contrast="auto">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="23" height="31"></span></strong><a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/CreatePlaceGeneralInformation.jnz">Core_Facilities_CreatePlace_GeneralInformation</a></span></p>
+<p><span style="font-size: 11pt; line-height: 107%; font-family: Calibri, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong><span xml:lang="EN-US" data-contrast="auto"><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="23" height="31"></span></strong><a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/CreatePlaceContactsAndScheduling.jnz"><span xml:lang="EN-US" data-contrast="auto">Core_Facilities_CreatePlace_ContactsAndScheduling</span> </a></span></p>
+<p><span style="font-size: 11pt; line-height: 107%; font-family: Calibri, sans-serif;"><span xml:lang="EN-US" data-contrast="auto">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="23" height="31"></strong><a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/CreatePlacePhysicalCharacteristics.jnz">Core_Facilities_CreatePlace_PhysicalCharacteristics</a></span></span></p>
+<p><span style="font-size: 11pt; line-height: 107%; font-family: Calibri, sans-serif;"><span xml:lang="EN-US" data-contrast="auto">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="23" height="31"></strong><a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/CreatePlaceSummary.jnz">Core_Facilities_CreatePlace_Summary</a></span></span></p>
+<p><strong><span xml:lang="EN-US" data-contrast="auto"><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="33" height="44"></span></strong> <a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/KeyDefinitions.jnz">Core_Facilities_KeyDefinitions</a></p>
+<p><a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/KeyStatusDefinitions.jnz"><strong><span xml:lang="EN-US" data-contrast="auto"><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="33" height="44"></span></strong> Core_Facilities_KeyStatusDefinitions</a></p>
+<p><strong><span xml:lang="EN-US" data-contrast="auto"><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="33" height="44"></span></strong> <a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/ManageRegions.jnz">Core_Facilities_ManageRegions</a></p>
+<p><strong><span xml:lang="EN-US" data-contrast="auto"><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="33" height="44"></span></strong><a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/ResourceTypeDefinitions.jnz"> Core_Facilities_ResourceTypeDefinitions</a></p>
+<p><strong><span xml:lang="EN-US" data-contrast="auto"><img src="/ICS/icsfs/mm/blue_thumb_tack_rev.jpg?target=bb8399d1-7695-4ae7-940f-c7287c6458b7" width="33" height="44"></span></strong> <a href="https://campus.mpcc.edu/ICS/Internal/Data/Facilities/ViewPlaces.jnz">Core_Facilities_ViewPlaces</a></p>
+
+
+
+RSVP REGISTRATION DAYS
+
+<div style="text-align: center;">&nbsp;</div>
+<div style="text-align: center;">&nbsp; &nbsp; &nbsp;<span style="font-size: 14pt; color: #236fa1;"><span style="font-size: 18pt;"><strong>Fall 2024 Registration Days</strong></span></span></div>
+<p style="text-align: center;"><span style="font-size: 14pt;">Registration days are held on our McCook and North Platte campuses<br><span style="font-size: 12pt;">McCook Campus - <span style="text-decoration: underline;">McMillen Hall</span> | 1205 E Third St | McCook NE 69001</span><br><span style="font-size: 12pt;">North Platte - <span style="text-decoration: underline;">South Campus</span> | 601 W State Farm Rd | North Platte NE 69101</span></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><span style="font-size: 12pt;"><span style="font-size: 14pt; color: rgb(35, 111, 161);"><span style="font-size: 18pt;"><strong>McCook:&nbsp; Thursdays -- April 25, May 23, June 13, &amp; July 18<br>North Platte:&nbsp; Please call 308-535-3600 to schedule an appointment</strong></span></span></span></span></p>
+<p style="text-align: center;"><strong><span style="font-size: 14pt;"><span style="font-size: 12pt;">Check-in Begins |</span></span></strong><span style="font-size: 14pt;"><span style="font-size: 12pt;">&nbsp;9:30 am<br><strong>Event Begins |&nbsp;</strong>10:00 am<br></span></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><span style="font-size: 12pt;">Reg Days typically last until 2:30pm - some finish earlier, some later, depending on steps completed ahead of Reg Day.&nbsp;<br>Parents are encouraged to attend, but not required</span></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;">&nbsp;<span style="font-size: 18pt;"><a href="https://campus.mpcc.edu/ICS/Forms/Public_Forms_Home/Public_Forms_Home.jnz?portlet=J1_FormFlow_-_Forms&amp;screen=FormView&amp;form=79ad5eeb-c20b-46b2-b53e-80eb4187f470" target="_blank" rel="noopener">RSVP's are now closed</a></span><br>or call 308-535-3600 to set up an individual appointment<br></span></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">MPCC is offering Registration Days at all our campuses. </span><br><span style="font-size: 10pt;">By answering a few questions, we will have the information we need to send you</span><br><span style="font-size: 10pt;">a confirmation packet in the mail the week before your appointment!</span></p>
+<p style="text-align: center;"><img src="/ICS/icsfs/mm/top_10_graphic.jpg?target=9511e931-42d8-439f-8b3a-aba9be8ec042" alt="" width="109" height="89"></p>
+
+RSVP NEW STUDENT ORIENTATION
+
+<p style="text-align: center;"><span style="color: #0000ff; font-family: verdana,geneva,sans-serif; font-size: 18pt;">New Student Orientation Day | August 16, 2024<br><span style="color: #ff0000; font-size: 14pt;">RSVP REQUIRED - PLEASE SAVE YOUR SPOT BY CLICKING THE LINK BELOW<br><span style="font-size: 24pt;"><a title="New Student Orientation RSVP" href="https://campus.mpcc.edu/ICS/RSVP/New_Student_Orientation.jnz?portlet=Make_an_Inquiry&amp;formname=New+Student+Orientation" target="_blank" rel="noopener">Click Here to RSVP Now</a></span> </span> <br></span></p>
+<p style="text-align: left;"><span style="color: #000000;">Check-in Info:</span></p>
+<ul>
+<li style="text-align: left;"><span style="color: #000000;">McCook&nbsp; -- Check-in time 9:00am at the Peter &amp; Dolores Graff Events Center</span></li>
+<li style="text-align: left;"><span style="color: #000000;">North Platte -- Check-in time 9:45am at the McDonald Belton Campus | 601 W State Farm Rd</span></li>
+</ul>
+<p style="text-align: left;"><span style="color: #34495e; font-size: 12pt;">ALL NEW STUDENTS ARE EXPECTED TO ATTEND</span></p>
+<ul>
+<li style="text-align: left;"><span style="color: #0000ff;">Lunch is provided</span></li>
+<li style="text-align: left;"><span style="color: #0000ff;">Meet your classmates and faculty</span></li>
+<li style="text-align: left;"><span style="color: #0000ff;">Learn about online tools, support, and coursework</span></li>
+<li style="text-align: left;"><span style="color: #0000ff;">Earn Prizes, enjoy Free Food, and HAVE FUN gearing up for a great college experience</span></li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong><span style="color: #ff0000; font-size: 14pt;">***IMPORTANT UPCOMING DATES/EVENTS***</span></strong></p>
+<p style="text-align: left;"><strong><span style="color: #ff0000; font-size: 14pt;">McCook &amp; North Platte</span></strong></p>
+<ul>
+<li><strong>August 15th -- Residence Hall Move-In Day for New Students<br>&nbsp; &nbsp; &nbsp;Designated times throughout the day - (check your email for more information &amp; roommate contact info)<br></strong></li>
+<li><strong>August 19th -- First Day of Classes</strong></li>
+</ul>
+<p><strong><span style="color: rgb(255, 0, 0); font-size: 14pt;">McCook</span></strong></p>
+<ul>
+<li><strong>August 15th -- Blue &amp; White Scrimmage -- 6:00pm @ Graff Events Center</strong></li>
+<li><strong>August 15th -- Ice Cream Social -- 8:00pm @ Brooks Hall</strong></li>
+<li><strong>August 16th -- Outdoor Movie Night -- 8:00pm @ TBD</strong></li>
+<li><strong>August 17th -- Welcome Back Bash &amp; BBQ -- 5:00pm @ Upper Shelter House between the Pool &amp; Graff Events Center</strong></li>
+</ul>
+<p><strong><span style="color: rgb(255, 0, 0); font-size: 14pt;">North Platte</span></strong></p>
+<ul>
+<li><strong>August 15th -- Ice Cream Social -- 3:00pm @ South Campus Pavilion</strong></li>
+<li><strong>August 16th -- Outdoor Movie Night -- 8:00pm @ South Campus Quad</strong></li>
+<li><strong>August 17th -- Welcome Back Bash &amp; BBQ -- 2:00pm-6:00pm @ South Campus Pavilion &amp; Green Area</strong><strong><br><span style="text-decoration: underline;"><strong><span style="font-size: 18pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></span></strong></li>
+</ul>
+<p>For more information, Contact Admissions:&nbsp; (308) 535-3783</p>
+
+RSVP JOURNEY MEDIA CAMPAIGN
+
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/ICS/icsfs/mm/mpcc_journey_image.png?target=e1c95131-7db8-4e34-be8e-16c6f123b223" alt="" width="585" height="375"></p>
+<p>Join our MPCC Journey Social Media Campaign March 6th-19th</p>
+<p>To be accepted to this #MPCCJOURNEY the senior student must:</p>
+<ul>
+<li>apply as a MPCC degree-seeking student</li>
+<li>submit a completed MPCC Scholarship application</li>
+<li>RSVP to the virtual event (link below)</li>
+</ul>
+<p>Our #MPCCJOURNEY campaign is a way to celebrate your acceptance to MPCC! Be creative, grab your family and friends, and start celebrating! Pictures and TikToks can be taken anywhere, posted to your social media page, tagged @MPCC, or check in to our campus.</p>
+<p>For more information please contact:&nbsp; Katy Denny | 308-535-3707 | <a href="mailto:dennyk@mpcc.edu">dennyk@mpcc.edu</a></p>
+<p style="text-align: center;"><span style="font-size: 24pt;"><a title="RSVP to NPHS Signing Day" href="https://campus.mpcc.edu/ICS/RSVP/MPCC_Journey.jnz?portlet=Make_an_Inquiry&amp;formid=213" target="_blank" rel="noopener">Click Here to RSVP Now</a></span></p>
+
+RSVP INTER-HIGH DAYS
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;"><span style="font-family: 'Times New Roman',serif;"><strong>Make plans to attend the contests this year!</strong></span> <span style="font-family: 'Times New Roman',serif;">Engaging students while on campus, testing their skills and knowledge, and increasing scholarship opportunities is our mission for the contest, <span style="text-decoration: underline;">so please send students whom you feel will take full advantage of the experience and take pride in representing your school!</span></span></span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><a title="Inter-High Rules &amp; Regulations" href="/ICS/icsfs/mm/rules_and_regulations_2024.pdf?target=1f8261be-bbd2-4b5f-bbeb-a51cd8304511" target="_blank" rel="noopener"><span style="font-size: 14pt;"><span style="font-family: 'Times New Roman',serif;"><span style="font-family: 'Times New Roman',serif;">Rules &amp; Regulations</span></span></span></a></p>
+<p style="text-align: left;"><span style="font-size: 14pt;"><span style="font-family: 'Times New Roman',serif;"><span style="font-family: 'Times New Roman',serif;"><span style="font-size: 18pt;"><span style="font-size: 24pt;"><span style="font-size: 18pt;"><a title="McCook Inter-High Registration" href="https://campus.mpcc.edu/ICS/RSVP/Test/McCook_Inter-High_Day.jnz">McCook Registration and Test Information</a></span><span style="color: #ff0000; font-size: 14pt; background-color: #ffffff;"> ( &larr;&nbsp;Click here) </span></span><span style="background-color: #ffffff;">- <span style="font-size: 14pt;"><strong>Event February 5th, 2025</strong></span></span></span></span></span></span></p>
+<p style="text-align: left;"><span style="font-family: times new roman,times,serif; font-size: 18pt;"><a title="North Platte South Registration" href="https://campus.mpcc.edu/ICS/RSVP/test2/">North Platte South Registration and Test Information</a></span> <span style="font-family: times new roman,times,serif; font-size: 14pt;"><span style="color: #ff0000;">(&larr; Click here)</span> - <strong>Event February 13th, 2025</strong></span></p>
+<p style="text-align: left;"><span style="font-family: times new roman,times,serif; font-size: 18pt;"><a title="Applied Tech Registration and Test Information" href="https://campus.mpcc.edu/ICS/RSVP/test3/Applied_Technology_Inter-High_Day.jnz">North Platte North - Applied Tech Registration and Test Information</a> <span style="color: #ff0000; font-size: 14pt;">(&larr;Click here) <span style="color: #000000;">- </span><span style="color: #000000;"><strong>Event February 13th, 2025</strong></span></span></span></p>
+<p style="text-align: center;"><span style="font-family: times new roman,times,serif; font-size: 18pt;"><span style="color: #ff0000; font-size: 14pt;"><span style="color: #000000;"><strong><img src="/ICS/icsfs/mm/top_10_graphic.jpg?target=48da0650-5372-426d-adea-915eecd6d9cd" alt="" width="93" height="76"></strong></span></span></span></p>
+
+
