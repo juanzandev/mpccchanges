@@ -18,5 +18,6 @@
   <rect x="262.445" y="-7.563" width="43.098" height="296.203" style="fill: rgb(28, 70, 144); stroke: rgba(0, 0, 0, 0);"/>
   <rect x="-13.255" y="-2.681" width="43.098" height="296.203" style="fill: rgb(28, 70, 144); stroke: rgba(0, 0, 0, 0);"/>
   <rect x="-16.853" y="-18.612" width="348.347" height="61.356" style="fill: rgb(28, 70, 144); stroke: rgba(0, 0, 0, 0);"/>
-  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 30.7px; white-space: pre;" x="19.449" y="260.515">Student Resources</text>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 30.7px; white-space: pre;" x="19.449" y="266.515">Student Resources</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="158.348" y="161.065"> </text>
 </svg>
